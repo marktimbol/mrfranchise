@@ -1,0 +1,55 @@
+@mixin mobile() {
+	.Content {
+		margin: 0;
+	}
+
+	.Brand__row {
+		margin-bottom: 0;
+		flex-direction: column-reverse;
+	}
+
+	.Brand__content--container {
+		flex: 1;
+	}
+
+	.Brand__image--container {
+		flex: 1;
+	}
+
+	.Brand__content {
+		padding: 20px;
+		h3 {
+			font-size: 26px;
+			text-align: center;
+		}
+	}
+
+	.Brand__image {
+		top: 0;
+		right: 0;
+		width: 100%;
+		height: 50vh;
+		position: relative;
+	}
+
+	.Brand__row--reverse {
+		.Brand__content--container {
+			top: 0;
+		}
+		.Column {
+			margin-left: 0;
+		}
+	}
+}
+
+@media screen and (max-width: 320px) {	// iPhone 5
+	@include mobile();
+}
+
+@media screen and (max-width: 414px) {	// iPhone6 Plus
+	@include mobile();
+}
+
+@media screen and (max-width: 768px) {
+
+}

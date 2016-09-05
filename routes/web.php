@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PagesController@home');
+Route::resource('brands', 'BrandsController', [
+	'only'	 => ['index', 'show']
+]);
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
