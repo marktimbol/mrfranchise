@@ -7,6 +7,9 @@
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+$orange: #FF5C01;
+$skyBlue: #00D7D2;
+
 .clearfix {
 	clear: both;
 }
@@ -16,7 +19,7 @@ body {
 }
 
 .Content {
-	margin: 0 6rem;
+	// margin: 0 6rem;
 	margin-bottom: 20rem;
 }
 
@@ -29,10 +32,6 @@ body {
 	background-image: url('/images/home-banner.jpg');
 }
 
-.Hero--brand {
-	height: 70vh;
-}
-
 footer {
 	bottom: 0;
 	width: 100%;
@@ -41,6 +40,7 @@ footer {
 	background: white;
 }
 
+@import 'components/Grid';
 @import 'components/Brands';
 @import 'components/Brand';
 @import 'components/MediaQueries';

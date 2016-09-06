@@ -1,8 +1,125 @@
 @extends('layouts.app')
 
-@section('content')
-	<div class="Hero Hero--brand">
-		<h2>{{ $brand->name }}</h2>
-	</div>
+@section('header_styles')
+	<link rel="stylesheet" href="{{ elixir('css/video.css') }}" />
+@endsection
 
+@section('content')
+	<div class="Brand Queens-chips">
+		<div class="Brand__header Flex">
+			<div class="Brand__logo--container Flex Flex--column">
+				<div class="Brand__logo Flex Flex--center Flex-1">
+					logo svg animation
+				</div>
+
+				<div class="Brand__inquiry Flex Flex--center Flex-1">
+					inquiry
+				</div>
+			</div>
+
+			<div class="Brand__hero Flex Flex--column Flex--center">
+				<h2>Queens Chips</h2>
+				<p>
+					Amsterdam is a city of tulips, windmills, museums, bicycles.
+					A city that everyone who visits the witch, with its atmosphere so fascinating.
+					Amsterdam is a city to live and to explore by foot, discovering in its streets
+					a must in the international street food: french fries Dutch.
+				</p>
+				<p>
+					<strong>STREET FOOD STYLE. THE TASTE THAT DOES TREND.</strong>
+				</p>
+			</div>
+		</div>
+
+		<div class="Brand__content">
+			<div class="Row">
+				<div class="Column-9">
+					<div class="Brand__images">
+						<img src="/images/queens-chips.jpg" alt="Queen's Chips" title="Queen's Chips" class="img-responsive" />
+					</div>
+
+					<div class="Brand__video">
+						<video id="brand-video" class="video-js" controls preload="auto"
+							poster="/images/queens-chips-preview.jpg" data-setup="{}"
+						>
+							<source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4'>
+							<p class="vjs-no-js">
+								To view this video please enable JavaScript, and consider upgrading to a web browser that
+								<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+							</p>
+							<span id="playButton">
+								<i class="fa fa-play-circle-o" aria-hidden="true"></i>
+							</span>
+						</video>
+					</div>
+				</div>
+				<div class="Column-3 Flex Flex--column">
+					<div class="Brand__branding">
+						
+					</div>
+					<div class="Brand__menus">
+						<h4>Menus</h4>
+					</div>
+					<div class="Brand__testimonials">
+						testimonials
+					</div>
+				</div>
+			</div>
+			<div class="Row">
+				<div class="Column-6 Flex Flex--column">
+					<div class="Social Flex Flex-1">
+						<div class="Social__instagram Flex Flex--center Flex-1">
+							<i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+						</div>
+						<div class="Social__twitter Flex Flex--center Flex-1">
+							<i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+						</div>
+						<div class="Social__facebook Flex Flex--center Flex-1">
+							<i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="Download Flex-1">
+						download
+					</div>
+				</div>
+
+				<div class="Column-6">
+					<div class="About Flex Flex--center Flex--column">
+						<h2>About Us</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+				</div>	
+			</div>
+			<div class="Row">
+				<div class="Column-9">
+					<div class="FindUs">
+						<div id="GoogleMap"></div>
+					</div>
+				</div>
+				<div class="Column-3 Flex Flex--column">
+					<div class="Newsletter Flex Flex-1 Flex--center">
+						<h4>Newsletter</h4>
+					</div>
+					<div class="Promo Flex Flex-1 Flex--center">
+						<h4>Promo</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endsection
+
+@section('footer_scripts')
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSKpdBCSwSHuTwon9f1mR8wuYsyVE9dfI&callback=initMap">
+    </script>
+	<script src="{{ elixir('js/map.js') }}"></script>
+	<script src="{{ elixir('js/video.js') }}"></script>
 @endsection

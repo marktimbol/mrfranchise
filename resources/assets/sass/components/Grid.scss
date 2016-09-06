@@ -1,0 +1,32 @@
+.Row {
+	display: flex;
+}
+
+.Column-9 {
+	flex: 0.70;
+}
+
+.Column-6 {
+	flex: 0.5;
+}
+
+.Column-3 {
+	flex: 0.30;
+}
+
+.Flex {
+	display: flex;
+}
+
+.Flex-1 {
+	flex: 1;
+}
+
+.Flex--column {
+	flex-direction: column;
+}
+
+.Flex--center {
+	align-items: center;
+	justify-content: center;
+}

@@ -5773,7 +5773,6 @@ body {
   background: white; }
 
 .Content {
-  margin: 0 6rem;
   margin-bottom: 20rem; }
 
 .Hero {
@@ -5784,9 +5783,6 @@ body {
   background-position: top center;
   background-image: url("/images/home-banner.jpg"); }
 
-.Hero--brand {
-  height: 70vh; }
-
 footer {
   bottom: 0;
   width: 100%;
@@ -5794,119 +5790,192 @@ footer {
   position: fixed;
   background: white; }
 
-.Als-Beef .Brand__content {
+.Row {
+  display: -webkit-box;
+  display: flex; }
+
+.Column-9 {
+  -webkit-box-flex: 0.70;
+  flex: 0.70; }
+
+.Column-6 {
+  -webkit-box-flex: 0.5;
+  flex: 0.5; }
+
+.Column-3 {
+  -webkit-box-flex: 0.30;
+  flex: 0.30; }
+
+.Flex {
+  display: -webkit-box;
+  display: flex; }
+
+.Flex-1 {
+  -webkit-box-flex: 1;
+  flex: 1; }
+
+.Flex--column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column; }
+
+.Flex--center {
+  -webkit-box-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center; }
+
+.Queens-chips .Brand__logo {
+  background: #2A4634; }
+
+.Queens-chips .Brand__hero {
+  background-image: url("/images/queens-chips-cover.jpg"); }
+  .Queens-chips .Brand__hero h2 {
+    color: white;
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 30px; }
+  .Queens-chips .Brand__hero p {
+    color: white;
+    font-size: 20px;
+    padding: 0px 40px;
+    text-align: center; }
+
+.Queens-chips .Brand__branding {
+  background: #FCCE01; }
+
+.Queens-chips .Brand__menus {
+  background: #2A4634; }
+
+.Queens-chips .About {
+  background: #FAF8EB; }
+
+.Queens-chips .Newsletter {
+  background: #FCCE01; }
+
+.Queens-chips .FindUs {
+  background: #2A4634; }
+
+.Als-Beef {
   background: rgba(255, 242, 0, 0.8); }
   .Als-Beef .Brand__content h3, .Als-Beef .Brand__content p, .Als-Beef .Brand__content ul li {
     color: #333; }
 
-.Queens-Chips .Brand__content {
-  background: rgba(37, 70, 51, 0.8); }
-  .Queens-Chips .Brand__content h3, .Queens-Chips .Brand__content p, .Queens-Chips .Brand__content ul li {
-    color: white; }
+.Queens-Chips {
+  background: rgba(37, 70, 51, 0.8);
+  color: white; }
 
-.Nancys-Pizza .Brand__content {
+.Nancys-Pizza {
   background: rgba(35, 31, 32, 0.8); }
   .Nancys-Pizza .Brand__content h3, .Nancys-Pizza .Brand__content p, .Nancys-Pizza .Brand__content ul li {
     color: white; }
 
-.Krush-Burger .Brand__content {
+.Krush-Burger {
   background: rgba(248, 168, 10, 0.8); }
   .Krush-Burger .Brand__content h3, .Krush-Burger .Brand__content p, .Krush-Burger .Brand__content ul li {
     color: #333; }
 
-.Backyard-Burger .Brand__content {
+.Backyard-Burger {
   background: rgba(35, 31, 32, 0.8); }
   .Backyard-Burger .Brand__content h3, .Backyard-Burger .Brand__content p, .Backyard-Burger .Brand__content ul li {
     color: white; }
 
-.Brand__row {
-  display: -webkit-box;
-  display: flex;
-  margin: 60px 0px;
+.Brand__logo--container {
+  -webkit-box-flex: 0.25;
+  flex: 0.25; }
+
+.Brand__logo {
+  color: white; }
+
+.Brand__inquiry {
+  color: #333;
+  background: #ddd; }
+
+.Brand__hero {
+  -webkit-box-flex: 0.75;
+  flex: 0.75;
+  width: 100%;
+  height: 640px;
   position: relative;
-  margin-bottom: 120px; }
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center; }
 
-.Brand__row--reverse {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-  flex-direction: row-reverse; }
-  .Brand__row--reverse .Brand__content--container {
-    top: 90px;
-    position: relative; }
-  .Brand__row--reverse .Brand__image {
-    left: 0;
-    top: 0;
-    right: 0; }
-  .Brand__row--reverse .Column {
-    margin-left: 35%; }
+.Brand__images {
+  height: 50vh;
+  background: red; }
 
-.Brand__content--container {
-  -webkit-box-flex: 0.7;
-  flex: 0.7; }
+.Brand__video {
+  height: 50vh;
+  background: green; }
 
-.Brand__content {
-  padding: 120px 70px;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center; }
-  .Brand__content h3 {
-    font-size: 36px;
-    font-weight: normal;
-    margin-bottom: 40px; }
-  .Brand__content p {
-    font-size: 16px; }
+.Brand__branding {
+  -webkit-box-flex: 0.3;
+  flex: 0.3;
+  background: #00D7D2; }
 
-.Brand__image--container {
+.Brand__menus {
   -webkit-box-flex: 0.4;
   flex: 0.4; }
 
-.Brand__image--featured {
-  height: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-image: url("/images/immediate-opportunities.jpg");
-  -webkit-transition: all .5s ease-in;
-  transition: all .5s ease-in;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center; }
-  .Brand__image--featured::after {
-    content: '';
+.Brand__testimonials {
+  -webkit-box-flex: 0.3;
+  flex: 0.3;
+  background: url("/images/wood-sm.jpg") no-repeat; }
+
+.Social__instagram {
+  background: #3D6B92; }
+  .Social__instagram .fa {
+    color: white; }
+
+.Social__twitter {
+  background: #55acee; }
+  .Social__twitter .fa {
+    color: white; }
+
+.Social__facebook {
+  background: #3b5998; }
+  .Social__facebook .fa {
+    color: white; }
+
+.Download {
+  background: url("/images/wood-lg.jpg") no-repeat; }
+
+.About {
+  height: 50vh;
+  padding: 40px;
+  background: #ddd; }
+
+.FindUs {
+  height: 50vh;
+  background: red; }
+
+#GoogleMap {
+  width: 100%;
+  height: 100%; }
+
+.Newsletter {
+  background: #FF5C01;
+  position: relative; }
+  .Newsletter h4 {
+    color: white; }
+  .Newsletter:before {
+    top: 0; }
+  .Newsletter:after {
+    bottom: -1px; }
+  .Newsletter:before, .Newsletter:after {
+    content: "";
+    left: 0;
     width: 100%;
-    height: 100%;
+    height: 6px;
     position: absolute;
-    border: 2px solid white;
-    -webkit-transition: all .5s ease-in;
-    transition: all .5s ease-in; }
-  .Brand__image--featured:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1); }
-    .Brand__image--featured:hover::after {
-      width: 80%;
-      height: 80%; }
-  .Brand__image--featured a {
-    color: white;
-    z-index: 9999;
-    position: relative; }
-    .Brand__image--featured a:hover {
-      text-decoration: none; }
+    background: url("/images/newsletter-strap.png") repeat-x; }
 
-.Brand__image {
-  width: 50%;
-  height: 100%;
-  top: 90px;
-  right: 120px;
-  position: absolute;
-  overflow: hidden; }
-
-.Brand__link {
-  margin-top: 50px; }
+.Promo {
+  background: url("/images/wood-sm.jpg") no-repeat; }
+  .Promo h4 {
+    color: white; }
 
 @media screen and (max-width: 320px) {
   .Content {
@@ -5970,6 +6039,23 @@ footer {
 
 .btn {
   border-radius: 0; }
+
+.video-js {
+  width: 100%;
+  height: 100%; }
+  .video-js .vjs-big-play-button {
+    height: 2em !important;
+    width: 2em !important;
+    top: 45% !important;
+    left: 45% !important;
+    line-height: 1.9em !important;
+    border-radius: 1em !important; }
+
+.vjs-poster {
+  background-size: cover !important; }
+
+.vjs-controls-disabled .vjs-poster {
+  display: inline-block; }
 
 /*# sourceMappingURL=app.css.map */
 
