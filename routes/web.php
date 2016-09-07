@@ -1,5 +1,7 @@
 <?php
 
+use App\Brand;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,6 +14,16 @@
 */
 
 Route::get('/', 'PagesController@home');
+Route::get('/add', function() {
+	Brand::create([
+		'name'	=> 'Sample brand',
+		'slug'	=> 'sample-brand',
+		'website'	=> 'http://google.com'
+	]);
+
+	return 'Done';
+});
+
 Route::resource('brands', 'BrandsController', [
 	'only'	 => ['index', 'show']
 ]);
