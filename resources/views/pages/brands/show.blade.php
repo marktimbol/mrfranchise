@@ -163,9 +163,15 @@
 			</div>
 			<div class="Row">
 				<div class="Column-9">
-					<div class="FindUs">
-						<div id="GoogleMap">
-							<h3 class="Section__title">Find Nearby</h3>
+					<div class="FindUs--container">
+						<div id="GoogleMap"></div>
+						<div class="FindUs">
+							<div class="FindUs__content Flex Flex--center Flex--column">
+								<h3 class="Section__title">Find Nearby</h3>
+								<div class="form-group">
+									<input type="text" name="city" class="form-control" placeholder="Enter your city" />
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
