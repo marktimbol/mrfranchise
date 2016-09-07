@@ -18,27 +18,40 @@ elixir(mix => {
     		'app.css'
     	], 'public/css/app.css')
 
-       .webpack('app.js')
+      .webpack('app.js')
 
-       	.styles([
-        	bowersPath + 'video.js/dist/video-js.css',
-       	], 'public/css/video.css')
+      .styles([
+        bowersPath + 'video.js/dist/video-js.css',
+      ], 'public/css/video.css')
 
-   		.scripts([
+   	  .scripts([
    			bowersPath + 'video.js/dist/ie8/videojs-ie8.js',
    			bowersPath + 'video.js/dist/video.js',
    	    	'video.js',
    		], 'public/js/video.js')
 
+      .styles([
+        bowersPath + 'flexslider/flexslider.css',
+      ], 'public/css/carousel.css')
+
+      .scripts([
+        bowersPath + 'flexslider/jquery.flexslider.js',
+        'carousel.js'
+      ], 'public/js/carousel.js')
+
       .scripts([
           'map.js',
       ], 'public/js/map.js')
+
+      // .copy('bower_components/flexslider/fonts', 'public/build/css/fonts')
        
        .version([
        		'public/css/app.css',
        		'public/js/app.js',
        		'public/css/video.css',
           'public/js/video.js',
+          'public/css/carousel.css',
+          'public/js/carousel.js',
        		'public/js/map.js',
        ]);
 });

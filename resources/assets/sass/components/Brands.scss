@@ -1,34 +1,45 @@
 .Queens-chips {
+	.theme-color {
+	    color: #2A4634;
+	    font-weight: bold;
+	}
+
 	.Brand__logo {
 		background: #2A4634;
 	}
-	
+
 	.Brand__hero {
 		background-image: url('/images/queens-chips-cover.jpg');
-		h2 {
-			color: white;
-			font-size: 46px;
-			font-weight: bold;
-			margin-bottom: 30px;
-		}
-		p {
-			color: white;
-			font-size: 20px;
-			padding: 0px 40px;
-			text-align: center;
-		}
+	}
+
+	.Brand__hero--title {
+		color: white;
+		font-size: 46px;
+		font-weight: bold;
+		margin-bottom: 30px;
+	}
+
+	.Brand__hero--description {
+		color: white;
+		font-size: 20px;
+		padding: 0px 40px;
+		text-align: center;
 	}
 
 	.Brand__branding {
 		background: #FCCE01;
 	}
 
+	.emoji {
+		color: #2A4634;
+	}
+	
 	.Brand__menus {
 		background: #2A4634;
 	}
 
 	.About {
-		background: #FAF8EB;
+		background: #FAF8EB url('/images/queens-chips-sauces.jpg') right bottom no-repeat;
 	}
 
 	.Newsletter {
@@ -42,45 +53,21 @@
 
 .Als-Beef {
 	background: rgba(255, 242, 0, 0.8);
-	.Brand__content {
-		h3, p, ul li {
-			color: #333;
-		}
-	}
 }
 
 .Queens-Chips {
 	background: rgba(37,70,51,.8);
 	color: white;
-	.Brand__content {
-		h3, p, ul li {
-		}
-	}
 }
 
 .Nancys-Pizza {
 	background: rgba(35,31,32,.8);
-	.Brand__content {
-		h3, p, ul li {
-			color: white;
-		}
-	}
 }
 
 .Krush-Burger {
 	background: rgba(248,168,10,.8);
-	.Brand__content {
-		h3, p, ul li {
-			color: #333;
-		}
-	}
 }
 
 .Backyard-Burger {
 	background: rgba(35,31,32,.8);
-	.Brand__content {
-		h3, p, ul li {
-			color: white;
-		}
-	}
 }

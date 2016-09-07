@@ -3,7 +3,7 @@
 }
 
 .Brand__logo {
-    color: white;
+    color: white; // temp
 }
 
 .Brand__inquiry {
@@ -44,30 +44,53 @@
 	flex: 0.4;
 }
 
+.Brand__menu {
+	margin-bottom: 10px;
+	.Column-3 {
+		margin-right: 10px;
+	}
+}
+
+.Brand__menu--name {
+
+}
+
+.Brand__menu--description {
+
+}
+
 .Brand__testimonials {
 	flex: 0.3;
 	background: url('/images/wood-sm.jpg') no-repeat;
 }
 
+.testimonials {
+	width: 80%;
+	margin-top: 30px;
+}
+
+.Brand__testimonial {
+	blockquote {
+		padding: 0;
+		border: none !important;
+	}
+}
+
+.Brand__testimonial--text {
+	font-size: 16px;
+	text-align: center;
+}
+
 .Social__instagram {
 	background: #3D6B92;
-	.fa {
-		color: white;
-	}
 }
 
 .Social__twitter {
 	background: #55acee;
-	.fa {
-		color: white;
-	}
 }
 
 .Social__facebook {
 	background: #3b5998;
-	.fa {
-		color: white;
-	}
 }
 
 .Download {
@@ -93,9 +116,6 @@
 .Newsletter {
 	background: $orange;
 	position: relative;
-	h4 {
-		color: white;
-	}
 	&:before {
 		top: 0;
 	}
@@ -114,7 +134,4 @@
 
 .Promo {
 	background: url('/images/wood-sm.jpg') no-repeat;
-	h4 {
-		color: white;
-	}
 }

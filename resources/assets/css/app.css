@@ -5766,14 +5766,27 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
-.clearfix {
-  clear: both; }
+.color-white {
+  color: white; }
+
+.has-padding-20 {
+  padding: 20px; }
 
 body {
   background: white; }
 
 .Content {
   margin-bottom: 20rem; }
+
+.Section__title {
+  margin: 0;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px; }
+
+.emoji {
+  font-size: 80px;
+  font-family: sans-serif; }
 
 .Hero {
   width: 100%;
@@ -5782,6 +5795,10 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   background-image: url("/images/home-banner.jpg"); }
+
+.has-vertical-scroll {
+  height: 100%;
+  overflow-y: scroll; }
 
 footer {
   bottom: 0;
@@ -5826,30 +5843,39 @@ footer {
   -webkit-box-pack: center;
   justify-content: center; }
 
+.Queens-chips .theme-color {
+  color: #2A4634;
+  font-weight: bold; }
+
 .Queens-chips .Brand__logo {
   background: #2A4634; }
 
 .Queens-chips .Brand__hero {
   background-image: url("/images/queens-chips-cover.jpg"); }
-  .Queens-chips .Brand__hero h2 {
-    color: white;
-    font-size: 46px;
-    font-weight: bold;
-    margin-bottom: 30px; }
-  .Queens-chips .Brand__hero p {
-    color: white;
-    font-size: 20px;
-    padding: 0px 40px;
-    text-align: center; }
+
+.Queens-chips .Brand__hero--title {
+  color: white;
+  font-size: 46px;
+  font-weight: bold;
+  margin-bottom: 30px; }
+
+.Queens-chips .Brand__hero--description {
+  color: white;
+  font-size: 20px;
+  padding: 0px 40px;
+  text-align: center; }
 
 .Queens-chips .Brand__branding {
   background: #FCCE01; }
+
+.Queens-chips .emoji {
+  color: #2A4634; }
 
 .Queens-chips .Brand__menus {
   background: #2A4634; }
 
 .Queens-chips .About {
-  background: #FAF8EB; }
+  background: #FAF8EB url("/images/queens-chips-sauces.jpg") right bottom no-repeat; }
 
 .Queens-chips .Newsletter {
   background: #FCCE01; }
@@ -5859,8 +5885,6 @@ footer {
 
 .Als-Beef {
   background: rgba(255, 242, 0, 0.8); }
-  .Als-Beef .Brand__content h3, .Als-Beef .Brand__content p, .Als-Beef .Brand__content ul li {
-    color: #333; }
 
 .Queens-Chips {
   background: rgba(37, 70, 51, 0.8);
@@ -5868,18 +5892,12 @@ footer {
 
 .Nancys-Pizza {
   background: rgba(35, 31, 32, 0.8); }
-  .Nancys-Pizza .Brand__content h3, .Nancys-Pizza .Brand__content p, .Nancys-Pizza .Brand__content ul li {
-    color: white; }
 
 .Krush-Burger {
   background: rgba(248, 168, 10, 0.8); }
-  .Krush-Burger .Brand__content h3, .Krush-Burger .Brand__content p, .Krush-Burger .Brand__content ul li {
-    color: #333; }
 
 .Backyard-Burger {
   background: rgba(35, 31, 32, 0.8); }
-  .Backyard-Burger .Brand__content h3, .Backyard-Burger .Brand__content p, .Backyard-Burger .Brand__content ul li {
-    color: white; }
 
 .Brand__logo--container {
   -webkit-box-flex: 0.25;
@@ -5919,25 +5937,36 @@ footer {
   -webkit-box-flex: 0.4;
   flex: 0.4; }
 
+.Brand__menu {
+  margin-bottom: 10px; }
+  .Brand__menu .Column-3 {
+    margin-right: 10px; }
+
 .Brand__testimonials {
   -webkit-box-flex: 0.3;
   flex: 0.3;
   background: url("/images/wood-sm.jpg") no-repeat; }
 
+.testimonials {
+  width: 80%;
+  margin-top: 30px; }
+
+.Brand__testimonial blockquote {
+  padding: 0;
+  border: none !important; }
+
+.Brand__testimonial--text {
+  font-size: 16px;
+  text-align: center; }
+
 .Social__instagram {
   background: #3D6B92; }
-  .Social__instagram .fa {
-    color: white; }
 
 .Social__twitter {
   background: #55acee; }
-  .Social__twitter .fa {
-    color: white; }
 
 .Social__facebook {
   background: #3b5998; }
-  .Social__facebook .fa {
-    color: white; }
 
 .Download {
   background: url("/images/wood-lg.jpg") no-repeat; }
@@ -5958,8 +5987,6 @@ footer {
 .Newsletter {
   background: #FF5C01;
   position: relative; }
-  .Newsletter h4 {
-    color: white; }
   .Newsletter:before {
     top: 0; }
   .Newsletter:after {
@@ -5974,8 +6001,6 @@ footer {
 
 .Promo {
   background: url("/images/wood-sm.jpg") no-repeat; }
-  .Promo h4 {
-    color: white; }
 
 @media screen and (max-width: 320px) {
   .Content {
@@ -6039,6 +6064,12 @@ footer {
 
 .btn {
   border-radius: 0; }
+
+.flexslider {
+  border: 0 !important; }
+
+.flex-direction-nav a {
+  height: 50px !important; }
 
 .video-js {
   width: 100%;
