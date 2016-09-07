@@ -164,7 +164,9 @@
 			<div class="Row">
 				<div class="Column-9">
 					<div class="FindUs">
-						<div id="GoogleMap"></div>
+						<div id="GoogleMap">
+							<h3 class="Section__title">Find Nearby</h3>
+						</div>
 					</div>
 				</div>
 				<div class="Column-3 Flex Flex--column">
