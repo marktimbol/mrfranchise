@@ -5767,7 +5767,7 @@ button.close {
     display: none !important; } }
 
 .color-white {
-  color: white; }
+  color: white !important; }
 
 .has-padding-20 {
   padding: 20px; }
@@ -5842,6 +5842,12 @@ footer {
   align-items: center;
   -webkit-box-pack: center;
   justify-content: center; }
+
+.Queens-chips .primary-color {
+  background: #2A4634; }
+
+.Queens-chips .secondary-color {
+  background: #FCCE01; }
 
 .Queens-chips .theme-color {
   color: #2A4634;
@@ -5959,7 +5965,15 @@ footer {
   font-size: 16px;
   text-align: center; }
 
+.Social a {
+  height: 100%; }
+  .Social a:hover {
+    text-decoration: none; }
+
 .Social__instagram {
+  background: #3D6B92; }
+
+.Social__email {
   background: #3D6B92; }
 
 .Social__twitter {
@@ -5967,9 +5981,6 @@ footer {
 
 .Social__facebook {
   background: #3b5998; }
-
-.Download {
-  background: url("/images/wood-lg.jpg") no-repeat; }
 
 .About {
   height: 50vh;

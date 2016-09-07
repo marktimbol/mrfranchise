@@ -123,22 +123,40 @@
 				<div class="Column-6 Flex Flex--column">
 					<div class="Social Flex Flex-1">
 						<div class="Social__instagram Flex Flex--center Flex-1">
-							<i class="fa fa-instagram fa-3x color-white" aria-hidden="true"></i>
+							<a href="#" class="Flex Flex--center Flex-1">
+								<i class="fa fa-instagram fa-3x color-white" aria-hidden="true"></i>
+							</a>
 						</div>
 						<div class="Social__twitter Flex Flex--center Flex-1">
-							<i class="fa fa-twitter fa-3x color-white" aria-hidden="true"></i>
+							<a href="#" class="Flex Flex--center Flex-1">
+								<i class="fa fa-twitter fa-3x color-white" aria-hidden="true"></i>
+							</a>
 						</div>
+					</div>
+					<div class="Social Flex Flex-1">
 						<div class="Social__facebook Flex Flex--center Flex-1">
-							<i class="fa fa-facebook fa-3x color-white" aria-hidden="true"></i>
+							<a href="#" class="Flex Flex--center Flex-1">
+								<i class="fa fa-facebook fa-3x color-white" aria-hidden="true"></i>
+							</a>
+						</div>
+						<div class="Social__email Flex Flex--center Flex-1">
+							<a href="#" class="Flex Flex--center Flex-1">
+								<i class="fa fa-envelope fa-3x color-white" aria-hidden="true"></i>
+							</a>
 						</div>
 					</div>
-					<div class="Download Flex-1 has-padding-20">
-						<h3 class="Section__title">download</h3>
-					</div>
+{{-- 					<div class="Download Flex Flex-1">
+						<div class="Flex Flex--center Flex-1 secondary-color">
+							<h3 class="color-white emoji">^_^</h3>
+						</div>
+						<div class="Flex Flex--center Flex-1 primary-color">
+							<h3 class="color-white emoji">:)</h3>
+						</div>
+					</div> --}}
 				</div>
 
 				<div class="Column-6">
-					<div class="About Flex Flex--center Flex--column">
+					<div class="About Flex Flex--column">
 						<h3 class="Section__title theme-color">About Us</h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

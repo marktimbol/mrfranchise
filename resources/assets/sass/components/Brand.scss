@@ -81,7 +81,20 @@
 	text-align: center;
 }
 
+.Social {
+	a {
+		height: 100%;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
 .Social__instagram {
+	background: #3D6B92;
+}
+
+.Social__email {
 	background: #3D6B92;
 }
 
@@ -94,7 +107,7 @@
 }
 
 .Download {
-	background: url('/images/wood-lg.jpg') no-repeat;
+	// background: url('/images/wood-lg.jpg') no-repeat;
 }
 
 .About {
