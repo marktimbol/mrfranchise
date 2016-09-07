@@ -182,7 +182,7 @@
 
 @section('footer_scripts')
 	<script async defer
-	     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSKpdBCSwSHuTwon9f1mR8wuYsyVE9dfI&callback=initMap">
+	     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDhZv02uNCor_FCBsIeJIeCE4nlcnLPIY&callback=initMap">
 	</script>
 	<script src="{{ elixir('js/carousel.js') }}"></script>
 	<script src="{{ elixir('js/video.js') }}"></script>
