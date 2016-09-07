@@ -145,14 +145,6 @@
 							</a>
 						</div>
 					</div>
-{{-- 					<div class="Download Flex Flex-1">
-						<div class="Flex Flex--center Flex-1 secondary-color">
-							<h3 class="color-white emoji">^_^</h3>
-						</div>
-						<div class="Flex Flex--center Flex-1 primary-color">
-							<h3 class="color-white emoji">:)</h3>
-						</div>
-					</div> --}}
 				</div>
 
 				<div class="Column-6">
