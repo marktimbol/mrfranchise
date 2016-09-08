@@ -1,9 +1,12 @@
 .Queens-chips {
+	background: url('/images/queens-chips-bg.jpg') no-repeat;
+	background-size: contain;
 	.primary-color, 
 	.Brand__logo, 
 	.Brand__images, 
 	.Brand__video, 
-	.Brand__menus {
+	.Brand__menus,
+	footer {
 		background: #2A4634;
 	}
 
@@ -41,7 +44,6 @@
 		background: #FAF8EB url('/images/queens-chips-sauces.jpg') right bottom no-repeat;
 		.Section__title {
 			color: #2A4634;
-			font-weight: bold;
 		}
 	}
 
@@ -53,6 +55,12 @@
 		.Section__title {
 			color: #333;
 			font-weight: bold;
+		}
+	}
+
+	footer {
+		p {
+			color: white;
 		}
 	}
 }

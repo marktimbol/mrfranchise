@@ -21,21 +21,21 @@
         ]); ?>
     </script>
 </head>
-<body>
+<body class="Queens-chips">
     @include('layouts.nav')
 
     <div class="Content container">
         @yield('content')
-    </div>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p>Terms &amp; Conditions</p>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Terms &amp; Conditions</p>
+                    </div>
                 </div>
-            </div>
-    </footer>
+        </footer>
+    </div>
 
     <!-- Scripts -->
     <script src="/js/app.js"></script>

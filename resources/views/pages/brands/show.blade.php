@@ -6,7 +6,7 @@
 @endsection
 
 @section('content')
-	<div class="Brand Queens-chips">
+	<div class="Brand">
 		<div class="Brand__header Flex">
 			<div class="Brand__logo--container Flex Flex--column">
 				<div class="Brand__logo Flex Flex--center Flex-1">
@@ -162,8 +162,14 @@
 					</div>
 				</div>
 				<div class="Column-3 Flex Flex--column">
-					<div class="Newsletter Flex Flex-1 Flex--center">
+					<div class="Newsletter Flex Flex-1 Flex--center Flex--column">
 						<h3 class="Section__title">Newsletter</h3>
+						<form method="POST">
+							{{ csrf_field() }}
+							<div class="form-group">
+								<input type="text" name="email" class="form-control input-bordered" placeholder="Join our weekly newsletter" />
+							</div>
+						</form>
 					</div>
 					<div class="SocialMedias Flex Flex-1">
 						<div class="Social Flex Flex-1 Flex--column">

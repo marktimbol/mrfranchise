@@ -34,12 +34,10 @@ body {
   overflow-y: scroll; }
 
 footer {
-  bottom: 0;
-  width: 100%;
-  padding: 3rem;
-  position: fixed;
-  background: white;
-  z-index: 9999; }
+  padding: 2rem;
+  background: white; }
+  footer p {
+    margin: 0; }
 
 .Row {
   display: -webkit-box;
@@ -81,49 +79,45 @@ footer {
   -webkit-box-pack: center;
   justify-content: center; }
 
-.Queens-chips .primary-color,
-.Queens-chips .Brand__logo,
-.Queens-chips .Brand__images,
-.Queens-chips .Brand__video,
-.Queens-chips .Brand__menus {
-  background: #2A4634; }
-
-.Queens-chips .secondary-color {
-  background: #FCCE01; }
-
-.Queens-chips .Brand__hero {
-  background-image: url("/images/queens-chips-cover.jpg"); }
-
-.Queens-chips .Brand__hero--title {
-  color: white;
-  font-size: 46px;
-  font-weight: bold;
-  margin-bottom: 30px; }
-
-.Queens-chips .Brand__hero--description {
-  color: white;
-  font-size: 20px;
-  padding: 0px 40px;
-  text-align: center; }
-
-.Queens-chips .Brand__branding {
-  background: #FCCE01; }
-
-.Queens-chips .emoji {
-  color: #2A4634; }
-
-.Queens-chips .About {
-  background: #FAF8EB url("/images/queens-chips-sauces.jpg") right bottom no-repeat; }
-  .Queens-chips .About .Section__title {
-    color: #2A4634;
+.Queens-chips {
+  background: url("/images/queens-chips-bg.jpg") no-repeat;
+  background-size: contain; }
+  .Queens-chips .primary-color,
+  .Queens-chips .Brand__logo,
+  .Queens-chips .Brand__images,
+  .Queens-chips .Brand__video,
+  .Queens-chips .Brand__menus,
+  .Queens-chips footer {
+    background: #2A4634; }
+  .Queens-chips .secondary-color {
+    background: #FCCE01; }
+  .Queens-chips .Brand__hero {
+    background-image: url("/images/queens-chips-cover.jpg"); }
+  .Queens-chips .Brand__hero--title {
+    color: white;
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 30px; }
+  .Queens-chips .Brand__hero--description {
+    color: white;
+    font-size: 20px;
+    padding: 0px 40px;
+    text-align: center; }
+  .Queens-chips .Brand__branding {
+    background: #FCCE01; }
+  .Queens-chips .emoji {
+    color: #2A4634; }
+  .Queens-chips .About {
+    background: #FAF8EB url("/images/queens-chips-sauces.jpg") right bottom no-repeat; }
+    .Queens-chips .About .Section__title {
+      color: #2A4634; }
+  .Queens-chips .Newsletter {
+    background: #FCCE01; }
+  .Queens-chips .FindUs .Section__title {
+    color: #333;
     font-weight: bold; }
-
-.Queens-chips .Newsletter {
-  background: #FCCE01; }
-
-.Queens-chips .FindUs .Section__title {
-  color: #333;
-  font-weight: bold; }
+  .Queens-chips footer p {
+    color: white; }
 
 .Als-Beef {
   background: rgba(255, 242, 0, 0.8); }
@@ -231,7 +225,6 @@ footer {
   width: 100%;
   height: 100%; }
   .FindUs .form-control {
-    border-radius: 0;
     border: 1px solid #2A4634; }
   .FindUs .Section__title, .FindUs .form-group {
     width: 50%;
@@ -261,6 +254,8 @@ footer {
     height: 6px;
     position: absolute;
     background: url("/images/newsletter-strap.png") repeat-x; }
+  .Newsletter form {
+    width: 80%; }
 
 .Promo {
   background: url("/images/wood-sm.jpg") no-repeat; }
@@ -333,6 +328,28 @@ footer {
 
 .flex-direction-nav a {
   height: 50px !important; }
+
+.form-control {
+  border-radius: 0; }
+
+.input-bordered {
+  color: white;
+  background: none;
+  border: 1px solid white;
+  box-shadow: none; }
+  .input-bordered:active, .input-bordered:hover, .input-bordered:visited, .input-bordered:focus {
+    border: 1px solid white;
+    box-shadow: none; }
+  .input-bordered::-webkit-input-placeholder {
+    color: white; }
+  .input-bordered:-moz-placeholder {
+    /* Firefox 18- */
+    color: white; }
+  .input-bordered::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white; }
+  .input-bordered:-ms-input-placeholder {
+    color: white; }
 
 .video-js {
   width: 100%;
