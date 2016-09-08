@@ -15,10 +15,14 @@ const bowersPath = '../../../bower_components/';
 elixir(mix => {
     mix.sass('app.scss', 'resources/assets/css/app.css')
     	.styles([
+        bowersPath + 'bootstrap/dist/css/bootstrap.css',
     		'app.css'
     	], 'public/css/app.css')
 
-      .webpack('app.js')
+      .scripts([
+        bowersPath + 'jquery/dist/jquery.js',
+        bowersPath + 'bootstrap/dist/js/bootstrap.js',
+      ], 'public/js/app.js')
 
       .styles([
         bowersPath + 'video.js/dist/video-js.css',
@@ -43,7 +47,7 @@ elixir(mix => {
           'map.js',
       ], 'public/js/map.js')
 
-      // .copy('bower_components/flexslider/fonts', 'public/build/css/fonts')
+      .copy('bower_components/bootstrap/dist/fonts', 'public/build/css/fonts')
        
        .version([
        		'public/css/app.css',

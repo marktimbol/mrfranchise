@@ -108,7 +108,6 @@
 										<blockquote>
 											<p class="Brand__testimonial--text color-white">
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-												tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 											</p>
 										</blockquote>
 									</li>
@@ -120,44 +119,31 @@
 				</div>
 			</div>
 			<div class="Row">
-				<div class="Column-6 Flex Flex--column">
-					<div class="Social Flex Flex-1">
-						<div class="Social__instagram Flex Flex--center Flex-1">
-							<a href="#" class="Flex Flex--center Flex-1">
-								<i class="fa fa-instagram fa-3x color-white" aria-hidden="true"></i>
-							</a>
+				<div class="Column-12">
+					<div class="About">
+						<div class="row">
+							<div class="col-md-7">
+								<h3 class="Section__title">Immediate Opportunities</h3>
+								<p>
+									Our Brands always looking to expand.<br />
+									Right now we're excited about - but not limited to - opportunities in these exciting locations!
+								</p>
+								<ul>
+									<li>For other locations:</li>       		                       		
+								</ul>
+								<p>&nbsp;</p>
+								<p>&nbsp;</p>
+				                <h3 class="Section__title">Who we're looking for?</h3>
+								<ul>
+									<li>People passionate about Queen's Chips</li>
+									<li>People who want to own their own business/control their own destiny</li>
+									<li>People with strong leadership skills</li>
+									<li>People who will be actively engaged in delivering the PERFECT GUEST EXPERIENCE and restaurant profitability</li>
+									<li>People with a proven track record of success in business</li>
+									<li>People with strong local knowledge and relationships in the community they will do business in</li>
+								</ul>
+							</div>
 						</div>
-						<div class="Social__twitter Flex Flex--center Flex-1">
-							<a href="#" class="Flex Flex--center Flex-1">
-								<i class="fa fa-twitter fa-3x color-white" aria-hidden="true"></i>
-							</a>
-						</div>
-					</div>
-					<div class="Social Flex Flex-1">
-						<div class="Social__facebook Flex Flex--center Flex-1">
-							<a href="#" class="Flex Flex--center Flex-1">
-								<i class="fa fa-facebook fa-3x color-white" aria-hidden="true"></i>
-							</a>
-						</div>
-						<div class="Social__email Flex Flex--center Flex-1">
-							<a href="#" class="Flex Flex--center Flex-1">
-								<i class="fa fa-envelope fa-3x color-white" aria-hidden="true"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="Column-6">
-					<div class="About Flex Flex--column">
-						<h3 class="Section__title theme-color">About Us</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
 					</div>
 				</div>	
 			</div>
@@ -179,8 +165,31 @@
 					<div class="Newsletter Flex Flex-1 Flex--center">
 						<h3 class="Section__title">Newsletter</h3>
 					</div>
-					<div class="Promo Flex Flex-1 Flex--center">
-						<h3 class="Section__title">Promo</h3>
+					<div class="SocialMedias Flex Flex-1">
+						<div class="Social Flex Flex-1 Flex--column">
+							<div class="Social__email Flex Flex--center Flex-1">
+								<a href="mailto:mark.timbol@hotmail.com" class="Flex Flex--center Flex-1">
+									<i class="fa fa-envelope fa-3x color-white" aria-hidden="true"></i>
+								</a>
+							</div>
+							<div class="Social__twitter Flex Flex--center Flex-1">
+								<a href="http://twitter.com" class="Flex Flex--center Flex-1">
+									<i class="fa fa-twitter fa-3x color-white" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+						<div class="Social Flex Flex-1 Flex--column">
+							<div class="Social__facebook Flex Flex--center Flex-1">
+								<a href="http://facebook.com" class="Flex Flex--center Flex-1">
+									<i class="fa fa-facebook fa-3x color-white" aria-hidden="true"></i>
+								</a>
+							</div>
+							<div class="Social__instagram Flex Flex--center Flex-1">
+								<a href="http://instagram.com" class="Flex Flex--center Flex-1">
+									<i class="fa fa-instagram fa-3x color-white" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -189,10 +198,10 @@
 @endsection
 
 @section('footer_scripts')
-	<script async defer
-	     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDhZv02uNCor_FCBsIeJIeCE4nlcnLPIY&callback=initMap">
-	</script>
 	<script src="{{ elixir('js/carousel.js') }}"></script>
 	<script src="{{ elixir('js/video.js') }}"></script>
 	<script src="{{ elixir('js/map.js') }}"></script>
+	<script async defer
+	     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDhZv02uNCor_FCBsIeJIeCE4nlcnLPIY&callback=initMap">
+	</script>
 @endsection

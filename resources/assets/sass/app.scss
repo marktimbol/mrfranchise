@@ -4,9 +4,6 @@
 // Variables
 @import "variables";
 
-// Bootstrap
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-
 $orange: #FF5C01;
 $skyBlue: #00D7D2;
 
@@ -59,6 +56,7 @@ footer {
 	padding: 3rem;
 	position: fixed;
 	background: white;
+	z-index: 9999;
 }
 
 @import 'components/Grid';

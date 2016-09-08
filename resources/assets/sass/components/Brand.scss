@@ -27,17 +27,14 @@
 
 .Brand__images {
 	height: 50vh;
-	background: red;
 }
 
 .Brand__video {
 	height: 50vh;
-	background: green;
 }
 
 .Brand__branding {
 	flex: 0.3;
-	background: $skyBlue;
 }
 
 .Brand__menus {
@@ -66,7 +63,7 @@
 
 .testimonials {
 	width: 80%;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 
 .Brand__testimonial {
@@ -114,7 +111,6 @@
 
 .FindUs--container {
 	height: 50vh;
-	background: red;
 	position: relative;
 }
 
@@ -129,7 +125,7 @@
 		border-radius: 0;
 	    border: 1px solid #2A4634;
 	}
-	
+
 	.Section__title, .form-group {
 		width: 50%;
 		z-index: 9999;

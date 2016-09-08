@@ -26,11 +26,16 @@
 
     <div class="Content container">
         @yield('content')
-
-        <footer>
-            <p>Terms &amp; Conditions</p>
-        </footer>
     </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Terms &amp; Conditions</p>
+                </div>
+            </div>
+    </footer>
 
     <!-- Scripts -->
     <script src="/js/app.js"></script>

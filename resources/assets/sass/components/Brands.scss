@@ -1,20 +1,14 @@
 .Queens-chips {
-
-	.primary-color {
+	.primary-color, 
+	.Brand__logo, 
+	.Brand__images, 
+	.Brand__video, 
+	.Brand__menus {
 		background: #2A4634;
 	}
-	
+
 	.secondary-color {
 		background: #FCCE01;
-	}
-
-	.theme-color {
-	    color: #2A4634;
-	    font-weight: bold;
-	}
-
-	.Brand__logo {
-		background: #2A4634;
 	}
 
 	.Brand__hero {
@@ -43,12 +37,12 @@
 		color: #2A4634;
 	}
 	
-	.Brand__menus {
-		background: #2A4634;
-	}
-
 	.About {
 		background: #FAF8EB url('/images/queens-chips-sauces.jpg') right bottom no-repeat;
+		.Section__title {
+			color: #2A4634;
+			font-weight: bold;
+		}
 	}
 
 	.Newsletter {
