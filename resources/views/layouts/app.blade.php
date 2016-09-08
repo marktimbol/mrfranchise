@@ -9,8 +9,8 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Styles -->
-    <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" />
-    <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+    <link href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
     <link href="/css/app.css" rel="stylesheet">
 
     @yield('header_styles')

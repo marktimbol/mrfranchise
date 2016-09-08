@@ -13,22 +13,22 @@
 					logo svg animation
 				</div>
 
-				<div class="Brand__inquiry Flex Flex--center Flex-1">
-					inquiry
+				<div class="Brand__inquiry Flex Flex--center Flex-1 Flex--column">
+					<h3 class="Section__title">Convinced?</h3>
+					<a href="#" class="btn btn-lg btn-inquire">Inquire now</a>
 				</div>
 			</div>
 
-			<div class="Brand__hero Flex Flex--column Flex--center">
-				<h2 class="Brand__hero--title">Queens Chips</h2>
-				<p class="Brand__hero--description">
-					Amsterdam is a city of tulips, windmills, museums, bicycles.
-					A city that everyone who visits the witch, with its atmosphere so fascinating.
-					Amsterdam is a city to live and to explore by foot, discovering in its streets
-					a must in the international street food: french fries Dutch.
-				</p>
-				<p class="Brand__hero--description">
-					<strong>STREET FOOD STYLE. THE TASTE THAT DOES TREND.</strong>
-				</p>
+			<div class="Brand__hero Flex Flex--end">
+				<div class="Brand__hero--content">
+					<p class="Brand__hero--description">
+						Amsterdam is a city of tulips, windmills, museums, bicycles.
+						A city that everyone who visits the witch, with its atmosphere so fascinating.
+						Amsterdam is a city to live and to explore by foot, discovering in its streets
+						a must in the international street food: french fries Dutch.<br /><br />
+						<strong>STREET FOOD STYLE. THE TASTE THAT DOES TREND.</strong>
+					</p>
+				</div>
 			</div>
 		</div>
 
@@ -46,15 +46,6 @@
 								</li>
 							</ul>
 						</div>
-{{-- 						<div class="custom-navigation">
-							<a href="#" class="flex-prev">
-								<i class="fa fa-chevron-left" aria-hidden="true"></i>
-							</a>
-							<div class="custom-controls-container"></div>
-							<a href="#" class="flex-next">
-								<i class="fa fa-chevron-right" aria-hidden="true"></i>
-							</a>
-						</div> --}}
 					</div>
 
 					<div class="Brand__video">

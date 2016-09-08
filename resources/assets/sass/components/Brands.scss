@@ -18,17 +18,21 @@
 		background-image: url('/images/queens-chips-cover.jpg');
 	}
 
+	.Brand__hero--content {
+	    padding: 20px;
+		background: rgba(0,0,0,.8);
+	}
+
 	.Brand__hero--title {
 		color: white;
 		font-size: 46px;
-		font-weight: bold;
+		font-weight: 400;
 		margin-bottom: 30px;
 	}
 
 	.Brand__hero--description {
 		color: white;
 		font-size: 20px;
-		padding: 0px 40px;
 		text-align: center;
 	}
 
@@ -54,7 +58,7 @@
 	.FindUs {
 		.Section__title {
 			color: #333;
-			font-weight: bold;
+			font-weight: 700;
 		}
 	}
 

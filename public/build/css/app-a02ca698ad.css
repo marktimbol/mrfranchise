@@ -6764,7 +6764,8 @@ button.close {
   padding: 20px; }
 
 body {
-  background: white; }
+  background: white;
+  font-family: 'Raleway', sans-serif; }
 
 .Content {
   margin-bottom: 20rem; }
@@ -6830,6 +6831,11 @@ footer {
   -webkit-box-direction: normal;
   flex-direction: column; }
 
+.Flex--end {
+  -webkit-box-align: end;
+  -ms-grid-row-align: flex-end;
+  align-items: flex-end; }
+
 .Flex--center {
   -webkit-box-align: center;
   -ms-grid-row-align: center;
@@ -6851,15 +6857,17 @@ footer {
     background: #FCCE01; }
   .Queens-chips .Brand__hero {
     background-image: url("/images/queens-chips-cover.jpg"); }
+  .Queens-chips .Brand__hero--content {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8); }
   .Queens-chips .Brand__hero--title {
     color: white;
     font-size: 46px;
-    font-weight: bold;
+    font-weight: 400;
     margin-bottom: 30px; }
   .Queens-chips .Brand__hero--description {
     color: white;
     font-size: 20px;
-    padding: 0px 40px;
     text-align: center; }
   .Queens-chips .Brand__branding {
     background: #FCCE01; }
@@ -6873,7 +6881,7 @@ footer {
     background: #FCCE01; }
   .Queens-chips .FindUs .Section__title {
     color: #333;
-    font-weight: bold; }
+    font-weight: 700; }
   .Queens-chips footer p {
     color: white; }
 
@@ -6903,6 +6911,8 @@ footer {
 .Brand__inquiry {
   color: #333;
   background: #ddd; }
+  .Brand__inquiry .Section__title {
+    color: #333; }
 
 .Brand__hero {
   -webkit-box-flex: 0.75;
