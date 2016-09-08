@@ -10,12 +10,11 @@
 		<div class="Brand__header Flex">
 			<div class="Brand__logo--container Flex Flex--column">
 				<div class="Brand__logo Flex Flex--center Flex-1">
-					logo svg animation
+
 				</div>
 
 				<div class="Brand__inquiry Flex Flex--center Flex-1 Flex--column">
-					<h3 class="Section__title">Convinced?</h3>
-					<a href="#" class="btn btn-lg btn-inquire">Inquire now</a>
+
 				</div>
 			</div>
 

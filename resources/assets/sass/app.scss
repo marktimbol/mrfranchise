@@ -53,7 +53,7 @@ body {
 
 footer {
 	padding: 2rem;
-	background: white;
+	background: #333;
 	p {
 		margin: 0;
 	}
@@ -62,5 +62,6 @@ footer {
 @import 'components/Grid';
 @import 'components/Brands';
 @import 'components/Brand';
+@import 'components/ButtonMorph';
 @import 'components/MediaQueries';
 @import 'components/Overwrite';
