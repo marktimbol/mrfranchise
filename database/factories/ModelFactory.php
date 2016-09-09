@@ -26,6 +26,32 @@ $factory->define(App\Brand::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->unique()->word,
         'slug' => $faker->slug,
-        'website'	=> $faker->url
+        'website'	=> $faker->url,
+        'description'   => $faker->paragraph,
+        'about'   => $faker->paragraph,
+        'facebook'   => $faker->url,
+        'twitter'   => $faker->url,
+        'instagram'   => $faker->url,
+        'email'   => $faker->email,
+    ];
+});
+
+$factory->define(App\Menu::class, function (Faker\Generator $faker) {
+    return [
+        'brand_id'  => function() {
+            factory(App\Brand::class)->create()->id;
+        },
+        'name' => $faker->unique()->word,
+        'slug' => $faker->slug,
+        'description'   => $faker->paragraph
+    ];
+});
+
+$factory->define(App\Testimonial::class, function (Faker\Generator $faker) {
+    return [
+        'brand_id'  => function() {
+            factory(App\Brand::class)->create()->id;
+        },
+        'text'   => $faker->sentence
     ];
 });

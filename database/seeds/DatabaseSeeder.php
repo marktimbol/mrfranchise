@@ -12,6 +12,20 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // $this->call(UsersTableSeeder::class);
-        factory(App\Brand::class, 10)->create();
+        $brands = factory(App\Brand::class, 5)->create();
+
+        foreach($brands as $brand)
+        {
+            $menus = factory(App\Menu::class, 5)->make([
+                'brand_id'  => $brand->id
+            ]);
+            $testimonials = factory(App\Testimonial::class, 5)->make([
+                'brand_id'  => $brand->id
+            ]);
+
+            $brand->menus()->saveMany($menus);
+            $brand->menus()->saveMany($testimonials);
+        }
+
     }
 }

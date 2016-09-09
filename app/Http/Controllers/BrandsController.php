@@ -16,6 +16,7 @@ class BrandsController extends Controller
 
     public function show($brand)
     {
-    	return view('pages.brands.show', compact('brand'));
+    	$menus = $brand->getLatestMenus(3);
+    	return view('pages.brands.show', compact('brand', 'menus'));
     }
 }
