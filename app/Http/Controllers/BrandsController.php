@@ -11,12 +11,12 @@ class BrandsController extends Controller
     public function index()
     {
     	$brands = Brand::latest()->get();
-    	return view('pages.brands.index', compact('brands'));
+    	return view('public.brands.index', compact('brands'));
     }
 
     public function show($brand)
     {
     	$menus = $brand->getLatestMenus(3);
-    	return view('pages.brands.show', compact('brand', 'menus'));
+    	return view('public.brands.show', compact('brand', 'menus'));
     }
 }

@@ -31,3 +31,8 @@ Route::resource('brands', 'BrandsController', [
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::group(['prefix' => 'dashboard', 'as' => 'dashboard.', 'middleware' => 'auth'], function() {
+	Route::get('/', 'Dashboard\DashboardController@index');
+	Route::resource('brands', 'Dashboard\BrandsController');
+});

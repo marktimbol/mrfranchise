@@ -23,4 +23,17 @@ class BrandsTest extends TestCase
     	$this->visit("/brands/$brand->slug")
     		->see($brand->name);
     }
+
+    public function test_it_displays_all_the_brands_on_the_admin_page()
+    {
+        $user = factory(App\User::class)->create();
+        $this->actingAs($user);
+
+        $brand = factory(App\Brand::class)->create([
+            'name'  => 'Krush Burger'
+        ]);
+
+        $this->visit('/dashboard/brands')
+            ->see($brand->name);
+    }
 }
