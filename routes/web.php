@@ -24,9 +24,12 @@ Route::get('/add', function() {
 	return 'Done';
 });
 
-Route::resource('brands', 'BrandsController', [
-	'only'	 => ['index', 'show']
-]);
+Route::get('/brands/queens-chips', 'PagesController@queensChips');
+Route::get('/brands/als-beef', 'PagesController@alsBeef');
+
+// Route::resource('brands', 'BrandsController', [
+// 	'only'	 => ['index', 'show']
+// ]);
 
 Auth::routes();
 

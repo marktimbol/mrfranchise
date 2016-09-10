@@ -15,6 +15,10 @@ $skyBlue: #00D7D2;
 	padding: 20px;
 }
 
+.min-height {
+	min-height: 200px;
+}
+
 body {
 	background: white;
 	font-family: 'Raleway', sans-serif;
@@ -55,13 +59,15 @@ footer {
 	padding: 2rem;
 	background: #333;
 	p {
+		color: white;
 		margin: 0;
 	}
 }
 
 @import 'components/Grid';
-@import 'components/Brands';
 @import 'components/Brand';
+@import 'components/QueensChips';
+@import 'components/AlsBeef';
 @import 'components/ButtonMorph';
 @import 'components/MediaQueries';
 @import 'components/Overwrite';

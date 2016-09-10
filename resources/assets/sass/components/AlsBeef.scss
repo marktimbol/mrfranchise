@@ -1,0 +1,66 @@
+.Als-beef {
+	background: url('/images/als-beef/bg.jpg') no-repeat;
+	background-size: contain;
+	.primary-color, 
+	.Brand__logo, 
+	.Brand__images, 
+	.Brand__video {
+		background: #FEF200;
+	}
+
+	.secondary-color {
+		background: #333;
+	}
+
+	.Brand__hero {
+		background-image: url('/images/als-beef/cover.jpg');
+	}
+
+	.Brand__hero--content {
+	    padding: 20px;
+		background: rgba(0,0,0,.8);
+	}
+
+	.Brand__hero--title {
+		color: white;
+		font-size: 46px;
+		font-weight: 400;
+		margin-bottom: 30px;
+	}
+
+	.Brand__hero--description {
+		color: white;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.Brand__branding {
+		background: #FEF200;
+	}
+
+	.emoji {
+		color: black;
+	}
+
+	.Brand__menus {
+		background: black;
+	}
+	
+	.About {
+		background: #FAF8EB url('/images/als-beef/about.png') right bottom no-repeat;
+		.Section__title {
+			color: #2A4634;
+		}
+	}
+
+	.Newsletter {
+		background: #FCCE01;
+	}
+
+	.FindUs {
+		.Section__title {
+			color: #333;
+			font-weight: 700;
+		}
+	}
+}

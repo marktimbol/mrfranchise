@@ -1,0 +1,63 @@
+.Queens-chips {
+	background: url('/images/queens-chips/bg.jpg') no-repeat;
+	background-size: contain;
+	.primary-color, 
+	.Brand__logo, 
+	.Brand__images, 
+	.Brand__video, 
+	.Brand__menus {
+		background: #2A4634;
+	}
+
+	.secondary-color {
+		background: #FCCE01;
+	}
+
+	.Brand__hero {
+		background-image: url('/images/queens-chips/cover.jpg');
+	}
+
+	.Brand__hero--content {
+	    padding: 20px;
+		background: rgba(0,0,0,.8);
+	}
+
+	.Brand__hero--title {
+		color: white;
+		font-size: 46px;
+		font-weight: 400;
+		margin-bottom: 30px;
+	}
+
+	.Brand__hero--description {
+		color: white;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.Brand__branding {
+		background: #FCCE01;
+	}
+
+	.emoji {
+		color: #2A4634;
+	}
+	
+	.About {
+		background: #FAF8EB url('/images/queens-chips/about.jpg') right bottom no-repeat;
+		.Section__title {
+			color: #2A4634;
+		}
+	}
+
+	.Newsletter {
+		background: #FCCE01;
+	}
+
+	.FindUs {
+		.Section__title {
+			color: #333;
+			font-weight: 700;
+		}
+	}
+}

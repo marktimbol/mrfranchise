@@ -1,13 +1,22 @@
-.btn {
-	border-radius: 0;
-}
+// Flexslider
 
 .flexslider {
+    margin: 0 !important;
     border: 0 !important;
 }
 
 .flex-direction-nav a {
     height: 50px !important;
+}
+
+.flex-control-nav {
+    display: none;
+}
+
+// Form
+
+.btn {
+    border-radius: 0;
 }
 
 .form-control {

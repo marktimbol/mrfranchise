@@ -21,7 +21,7 @@
         ]); ?>
     </script>
 </head>
-<body class="Queens-chips">
+<body class="@yield('bodyClass')">
     @include('layouts.nav')
 
     <div class="Content container">

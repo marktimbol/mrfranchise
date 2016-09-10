@@ -5,6 +5,9 @@
 .has-padding-20 {
   padding: 20px; }
 
+.min-height {
+  min-height: 200px; }
+
 body {
   background: white;
   font-family: 'Raleway', sans-serif; }
@@ -38,6 +41,7 @@ footer {
   padding: 2rem;
   background: #333; }
   footer p {
+    color: white;
     margin: 0; }
 
 .Row {
@@ -85,63 +89,6 @@ footer {
   -webkit-box-pack: center;
   justify-content: center; }
 
-.Queens-chips {
-  background: url("/images/queens-chips-bg.jpg") no-repeat;
-  background-size: contain; }
-  .Queens-chips .primary-color,
-  .Queens-chips .Brand__logo,
-  .Queens-chips .Brand__images,
-  .Queens-chips .Brand__video,
-  .Queens-chips .Brand__menus {
-    background: #2A4634; }
-  .Queens-chips .secondary-color {
-    background: #FCCE01; }
-  .Queens-chips .Brand__hero {
-    background-image: url("/images/queens-chips-cover.jpg"); }
-  .Queens-chips .Brand__hero--content {
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.8); }
-  .Queens-chips .Brand__hero--title {
-    color: white;
-    font-size: 46px;
-    font-weight: 400;
-    margin-bottom: 30px; }
-  .Queens-chips .Brand__hero--description {
-    color: white;
-    font-size: 20px;
-    text-align: center; }
-  .Queens-chips .Brand__branding {
-    background: #FCCE01; }
-  .Queens-chips .emoji {
-    color: #2A4634; }
-  .Queens-chips .About {
-    background: #FAF8EB url("/images/queens-chips-sauces.jpg") right bottom no-repeat; }
-    .Queens-chips .About .Section__title {
-      color: #2A4634; }
-  .Queens-chips .Newsletter {
-    background: #FCCE01; }
-  .Queens-chips .FindUs .Section__title {
-    color: #333;
-    font-weight: 700; }
-  .Queens-chips footer p {
-    color: white; }
-
-.Als-Beef {
-  background: rgba(255, 242, 0, 0.8); }
-
-.Queens-Chips {
-  background: rgba(37, 70, 51, 0.8);
-  color: white; }
-
-.Nancys-Pizza {
-  background: rgba(35, 31, 32, 0.8); }
-
-.Krush-Burger {
-  background: rgba(248, 168, 10, 0.8); }
-
-.Backyard-Burger {
-  background: rgba(35, 31, 32, 0.8); }
-
 .logo {
   width: 50px;
   height: 50px;
@@ -169,12 +116,6 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center; }
-
-.Brand__images {
-  height: 50vh; }
-
-.Brand__video {
-  height: 50vh; }
 
 .Brand__branding {
   -webkit-box-flex: 0.3;
@@ -273,6 +214,85 @@ footer {
 
 .Promo {
   background: url("/images/wood-sm.jpg") no-repeat; }
+
+.Queens-chips {
+  background: url("/images/queens-chips/bg.jpg") no-repeat;
+  background-size: contain; }
+  .Queens-chips .primary-color,
+  .Queens-chips .Brand__logo,
+  .Queens-chips .Brand__images,
+  .Queens-chips .Brand__video,
+  .Queens-chips .Brand__menus {
+    background: #2A4634; }
+  .Queens-chips .secondary-color {
+    background: #FCCE01; }
+  .Queens-chips .Brand__hero {
+    background-image: url("/images/queens-chips/cover.jpg"); }
+  .Queens-chips .Brand__hero--content {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8); }
+  .Queens-chips .Brand__hero--title {
+    color: white;
+    font-size: 46px;
+    font-weight: 400;
+    margin-bottom: 30px; }
+  .Queens-chips .Brand__hero--description {
+    color: white;
+    font-size: 20px;
+    text-align: center; }
+  .Queens-chips .Brand__branding {
+    background: #FCCE01; }
+  .Queens-chips .emoji {
+    color: #2A4634; }
+  .Queens-chips .About {
+    background: #FAF8EB url("/images/queens-chips/about.jpg") right bottom no-repeat; }
+    .Queens-chips .About .Section__title {
+      color: #2A4634; }
+  .Queens-chips .Newsletter {
+    background: #FCCE01; }
+  .Queens-chips .FindUs .Section__title {
+    color: #333;
+    font-weight: 700; }
+
+.Als-beef {
+  background: url("/images/als-beef/bg.jpg") no-repeat;
+  background-size: contain; }
+  .Als-beef .primary-color,
+  .Als-beef .Brand__logo,
+  .Als-beef .Brand__images,
+  .Als-beef .Brand__video {
+    background: #FEF200; }
+  .Als-beef .secondary-color {
+    background: #333; }
+  .Als-beef .Brand__hero {
+    background-image: url("/images/als-beef/cover.jpg"); }
+  .Als-beef .Brand__hero--content {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8); }
+  .Als-beef .Brand__hero--title {
+    color: white;
+    font-size: 46px;
+    font-weight: 400;
+    margin-bottom: 30px; }
+  .Als-beef .Brand__hero--description {
+    color: white;
+    font-size: 20px;
+    text-align: center; }
+  .Als-beef .Brand__branding {
+    background: #FEF200; }
+  .Als-beef .emoji {
+    color: black; }
+  .Als-beef .Brand__menus {
+    background: black; }
+  .Als-beef .About {
+    background: #FAF8EB url("/images/als-beef/about.png") right bottom no-repeat; }
+    .Als-beef .About .Section__title {
+      color: #2A4634; }
+  .Als-beef .Newsletter {
+    background: #FCCE01; }
+  .Als-beef .FindUs .Section__title {
+    color: #333;
+    font-weight: 700; }
 
 /* Morph Button: Default Styles */
 .morph-button {
@@ -1204,14 +1224,18 @@ footer {
   .Brand__row--reverse .Column {
     margin-left: 0; } }
 
-.btn {
-  border-radius: 0; }
-
 .flexslider {
+  margin: 0 !important;
   border: 0 !important; }
 
 .flex-direction-nav a {
   height: 50px !important; }
+
+.flex-control-nav {
+  display: none; }
+
+.btn {
+  border-radius: 0; }
 
 .form-control {
   border-radius: 0; }
