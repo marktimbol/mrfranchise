@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
-@section('pageTitle', "Al's Beef")
+@section('pageTitle', "Krush Burger")
 
 @section('header_styles')
 	<link rel="stylesheet" href="{{ elixir('css/video.css') }}" />
 	<link rel="stylesheet" href="{{ elixir('css/carousel.css') }}" />
 @endsection
 
-@section('bodyClass', 'Als-beef')
+@section('bodyClass', 'Krush-burger')
 
 @section('content')
 	<div class="Brand">
@@ -42,10 +42,10 @@
 								<div class="flexslider">
 									<ul class="slides">
 										<li>
-											<img src="/images/als-beef/slides/slide.jpg" alt="Al's Beef" title="Al's Beef" class="img-responsive" />
+											<img src="/images/krush-burger/slides/slide.jpg" alt="Queen's Chips" title="Queen's Chips" class="img-responsive" />
 										</li>
 										<li>
-											<img src="/images/als-beef/slides/slide.jpg" alt="Al's Beef" title="Al's Beef" class="img-responsive" />
+											<img src="/images/krush-burger/slides/slide.jpg" alt="Queen's Chips" title="Queen's Chips" class="img-responsive" />
 										</li>
 									</ul>
 								</div>
@@ -81,7 +81,7 @@
 					<div class="About">
 						<div class="row">
 							<div class="col-md-7">
-								<h3 class="Section__title">About Al's Beef</h3>
+								<h3 class="Section__title">About Krush Burger</h3>
 								<p>
 									The Sandwich That Started It All The history of Al’s #1 Italian Beef Restaurants dates back to 1938 when Al Ferrari and his sister and brother-in-law, Frances and Chris Pacelli, Sr., developed the original idea and recipe for the original Italian beef sandwich.
 								</p>
@@ -129,7 +129,7 @@
 						<form method="POST">
 							{{ csrf_field() }}
 							<div class="form-group">
-								<input type="text" name="email" class="form-control input-newsletter" placeholder="Join our weekly newsletter" />
+								<input type="text" name="email" class="form-control input-bordered" placeholder="Join our weekly newsletter" />
 							</div>
 						</form>
 					</div>
@@ -170,11 +170,11 @@
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 							<span aria-hidden="true">&times;</span>
 						</button>
-						<h4 class="modal-title">Al's Beef Video</h4>
+						<h4 class="modal-title">Krush Burger Video</h4>
 					</div>
 					<div class="modal-body">
 						<video id="brand-video" class="video-js" controls muted preload="auto"
-							poster="/images/als-beef/cover.jpg" data-setup="{}"
+							poster="/images/queens-chips/cover.jpg" data-setup="{}"
 						>
 							<source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4'>
 							<p class="vjs-no-js">
@@ -194,6 +194,7 @@
 		</div>
 
 		@include('public.brands._inquiry')
+
 	</div>
 @endsection
 

@@ -26,6 +26,8 @@ Route::get('/add', function() {
 
 Route::get('/brands/queens-chips', 'PagesController@queensChips');
 Route::get('/brands/als-beef', 'PagesController@alsBeef');
+Route::get('/brands/krush-burger', 'PagesController@krushBurger');
+Route::get('/brands/eyescream-and-friends', 'PagesController@eyescream');
 
 // Route::resource('brands', 'BrandsController', [
 // 	'only'	 => ['index', 'show']

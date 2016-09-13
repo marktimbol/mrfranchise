@@ -1,0 +1,14 @@
+<div class="Brand__video">
+	<video id="brand-video" class="video-js" controls preload="auto"
+		poster="/images/als-beef/cover.jpg" data-setup="{}"
+	>
+		<source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4'>
+		<p class="vjs-no-js">
+			To view this video please enable JavaScript, and consider upgrading to a web browser that
+			<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+		</p>
+		<span id="playButton">
+			<i class="fa fa-play-circle-o" aria-hidden="true"></i>
+		</span>
+	</video>
+</div>

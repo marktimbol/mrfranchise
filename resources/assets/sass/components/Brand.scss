@@ -23,33 +23,11 @@
 .Brand__hero {
 	flex: 0.75;
     width: 100%;
-    height: 640px;
+    height: 85vh;
     position: relative;
     background-size: cover;
 	background-repeat: no-repeat;
     background-position: top center;
-}
-
-.Brand__hero--content {
-
-}
-
-.Brand__images {
-	// flex: 0.5;
-}
-
-.Brand__video {
-	min-height: 500px;
-	// height: 400px;
-	// flex: 0.5;
-}
-
-.Brand__branding {
-	flex: 0.3;
-}
-
-.Brand__menus {
-	flex: 0.4;
 }
 
 .Brand__menu {
@@ -59,16 +37,7 @@
 	}
 }
 
-.Brand__menu--name {
-
-}
-
-.Brand__menu--description {
-
-}
-
 .Brand__testimonials {
-	flex: 0.3;
 	background: url('/images/wood-sm.jpg') no-repeat;
 }
 
@@ -180,4 +149,11 @@
 
 .Promo {
 	background: url('/images/wood-sm.jpg') no-repeat;
+}
+
+.Inquiry-bg {
+	margin-right: 20px;
+    background-size: cover;
+    // background-position: bottom;
+	background: url('/images/inquire-now.jpg') no-repeat;
 }

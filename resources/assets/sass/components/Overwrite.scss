@@ -19,33 +19,39 @@
     border-radius: 0;
 }
 
+.btn-link {
+    &:active, &:hover, &:visited, &:focus {
+        outline: 0 !important;
+        box-shadow: none !important;
+    }
+}
 .form-control {
     border-radius: 0;
 }
 
-.input-bordered {
-    color: white;
+.input-newsletter {
+    color: #333;
     background: none;
-    border: 1px solid white;
+    border: 1px solid #333;
     box-shadow: none;
     &:active, &:hover, &:visited, &:focus {
-        border: 1px solid white;
+        border: 1px solid #333;
         box-shadow: none;
     }
     &::-webkit-input-placeholder {
-       color: white;
+       color: #333;
     }
 
     &:-moz-placeholder { /* Firefox 18- */
-       color: white;  
+       color: #333;  
     }
 
     &::-moz-placeholder {  /* Firefox 19+ */
-       color: white;  
+       color: #333;  
     }
 
     &:-ms-input-placeholder {  
-       color: white;  
+       color: #333;  
     }
 }
 
@@ -70,7 +76,6 @@
 }
 
 .vjs-poster {
-    min-height: 500px;
 	background-size: cover !important;
 }
 
@@ -78,4 +83,10 @@
 	.vjs-poster {
 		display: inline-block;
 	}
+}
+
+// Modal
+
+.modal-dialog {
+    width: 90vw;
 }

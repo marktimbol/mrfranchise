@@ -18,82 +18,46 @@
 				</div>
 
 				<div class="Brand__inquiry Flex Flex--center Flex-1 Flex--column">
-
+					<button type="button" class="btn btn-default" data-toggle="modal" data-target="#FormInquiry">
+						Inquire now
+					</button>
 				</div>
 			</div>
 
-			<div class="Brand__hero Flex Flex--end">
-				<div class="Brand__hero--content">
-					<p class="Brand__hero--description">
-						Amsterdam is a city of tulips, windmills, museums, bicycles.
-						A city that everyone who visits the witch, with its atmosphere so fascinating.
-						Amsterdam is a city to live and to explore by foot, discovering in its streets
-						a must in the international street food: french fries Dutch.<br /><br />
-						<strong>STREET FOOD STYLE. THE TASTE THAT DOES TREND.</strong>
-					</p>
-				</div>
+			<div class="Brand__hero Flex Flex--center">
+				<button class="btn btn-link" data-toggle="modal" data-target="#VideoModal">
+					<div class="play-video-icon Flex Flex--center">
+						<span></span>
+					</div>
+				</button>
 			</div>
 		</div>
 
 		<div class="Brand__content">
 			<div class="Row">
 				<div class="Column-9">
-					<div class="Brand__images">
-						<div class="flexslider">
-							<ul class="slides">
-								<li>
-									<img src="/images/queens-chips/slides/slide.jpg" alt="Queen's Chips" title="Queen's Chips" class="img-responsive" />
-								</li>
-								<li>
-									<img src="/images/queens-chips/slides/slide.jpg" alt="Queen's Chips" title="Queen's Chips" class="img-responsive" />
-								</li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="Brand__video">
-						<video id="brand-video" class="video-js" controls preload="auto"
-							poster="/images/queens-chips/video-preview.jpg" data-setup="{}"
-						>
-							<source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4'>
-							<p class="vjs-no-js">
-								To view this video please enable JavaScript, and consider upgrading to a web browser that
-								<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-							</p>
-							<span id="playButton">
-								<i class="fa fa-play-circle-o" aria-hidden="true"></i>
-							</span>
-						</video>
-					</div>
-				</div>
-				<div class="Column-3 Flex Flex--column">
-					<div class="Brand__branding Flex Flex--center">
-						<h3 class="Section__title emoji">:)</h3>
-					</div>
-					<div class="Brand__menus has-padding-20">
-						<h3 class="Section__title">Menus</h3>
-						<div class="has-vertical-scroll">
-							@foreach( range(1, 3) as $menu )
-								<div class="Row Brand__menu">
-									<div class="Column-3">
-										<img src="/images/menu.png" alt="Menu" title="Menu" class="img-responsive Brand__menu--image" />
-									</div>
-									<div class="Column-9">
-										<h5 class="Brand__menu--name color-white">Menu Name</h5>
-										<p class="Brand__menu--description color-white">
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										</p>
-									</div>
+					<div class="Row Flex--column">
+						<div class="Column-12">
+							<div class="Brand__images">
+								<div class="flexslider">
+									<ul class="slides">
+										<li>
+											<img src="/images/queens-chips/slides/slide.jpg" alt="Queen's Chips" title="Queen's Chips" class="img-responsive" />
+										</li>
+										<li>
+											<img src="/images/queens-chips/slides/slide.jpg" alt="Queen's Chips" title="Queen's Chips" class="img-responsive" />
+										</li>
+									</ul>
 								</div>
-							@endforeach
-							<div class="Row">
-								<p>
-									<a href="#" class="btn btn-link">View all menus</a>
-								</p>
 							</div>
 						</div>
 					</div>
-					<div class="Brand__testimonials Flex Flex--center Flex--column">
+				</div>
+				<div class="Column-3 Flex Flex--column">
+					<div class="Brand__emoji Flex Flex-1 Flex--center">
+						<h3 class="Section__title emoji">:)</h3>
+					</div>
+					<div class="Brand__testimonials Flex Flex-1 Flex--center Flex--column">
 						<i class="fa fa-quote-left fa-3x color-white"></i>
 						<div class="testimonials">
 							<ul class="slides">
@@ -117,6 +81,11 @@
 					<div class="About">
 						<div class="row">
 							<div class="col-md-7">
+								<h3 class="Section__title">About Queen's Chips</h3>
+								<p>
+									The Sandwich That Started It All The history of Al’s #1 Italian Beef Restaurants dates back to 1938 when Al Ferrari and his sister and brother-in-law, Frances and Chris Pacelli, Sr., developed the original idea and recipe for the original Italian beef sandwich.
+								</p>
+								<p>&nbsp;</p>
 								<h3 class="Section__title">Immediate Opportunities</h3>
 								<p>
 									Our Brands always looking to expand.<br />
@@ -125,7 +94,6 @@
 								<ul>
 									<li>For other locations:</li>       		
 								</ul>
-								<p>&nbsp;</p>
 								<p>&nbsp;</p>
 				                <h3 class="Section__title">Who we're looking for?</h3>
 								<ul>
@@ -156,7 +124,7 @@
 					</div>
 				</div>
 				<div class="Column-3 Flex Flex--column">
-					<div class="Newsletter Flex Flex-1 Flex--center Flex--column">
+					<div class="Newsletter Flex Flex-1 Flex--center Flex--column min-height-200">
 						<h3 class="Section__title">Newsletter</h3>
 						<form method="POST">
 							{{ csrf_field() }}
@@ -194,6 +162,39 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="modal fade" id="VideoModal" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title">Queen's Chips Video</h4>
+					</div>
+					<div class="modal-body">
+						<video id="brand-video" class="video-js" controls muted preload="auto"
+							poster="/images/queens-chips/cover.jpg" data-setup="{}"
+						>
+							<source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4'>
+							<p class="vjs-no-js">
+								To view this video please enable JavaScript, and consider upgrading to a web browser that
+								<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+							</p>
+							<span id="playButton">
+								<i class="fa fa-play-circle-o" aria-hidden="true"></i>
+							</span>
+						</video>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		@include('public.brands._inquiry')
+
 	</div>
 @endsection
 
