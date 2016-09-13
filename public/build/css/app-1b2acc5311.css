@@ -6875,6 +6875,9 @@ footer {
   background-repeat: no-repeat;
   background-position: top center; }
 
+.Brand__video {
+  min-height: 500px; }
+
 .Brand__branding {
   -webkit-box-flex: 0.3;
   flex: 0.3; }
@@ -6906,7 +6909,8 @@ footer {
   text-align: center; }
 
 .Social a {
-  height: 100%; }
+  height: 100%;
+  min-height: 100px; }
   .Social a:hover {
     text-decoration: none; }
 
@@ -6928,7 +6932,7 @@ footer {
   background: #ddd; }
 
 .FindUs--container {
-  height: 50vh;
+  height: 100%;
   position: relative; }
 
 .FindUs {
@@ -8020,6 +8024,8 @@ footer {
 .video-js {
   width: 100%;
   height: 100%; }
+  .video-js .vjs-tech {
+    position: relative !important; }
   .video-js .vjs-big-play-button {
     height: 2em !important;
     width: 2em !important;
@@ -8029,6 +8035,7 @@ footer {
     border-radius: 1em !important; }
 
 .vjs-poster {
+  min-height: 500px;
   background-size: cover !important; }
 
 .vjs-controls-disabled .vjs-poster {

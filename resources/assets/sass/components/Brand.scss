@@ -39,6 +39,7 @@
 }
 
 .Brand__video {
+	min-height: 500px;
 	// height: 400px;
 	// flex: 0.5;
 }
@@ -91,6 +92,7 @@
 .Social {
 	a {
 		height: 100%;
+		min-height: 100px;
 		&:hover {
 			text-decoration: none;
 		}
@@ -120,7 +122,7 @@
 }
 
 .FindUs--container {
-	height: 50vh;
+	height: 100%;
 	position: relative;
 }
 

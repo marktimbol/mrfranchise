@@ -52,7 +52,7 @@
 						<div class="Column-6">
 							<div class="Brand__video">
 								<video id="brand-video" class="video-js" controls preload="auto"
-									poster="/images/als-beef/video-preview.jpg" data-setup="{}"
+									poster="/images/als-beef/cover.jpg" data-setup="{}"
 								>
 									<source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4'>
 									<p class="vjs-no-js">
@@ -157,7 +157,7 @@
 					</div>
 				</div>
 				<div class="Column-3 Flex Flex--column">
-					<div class="Newsletter Flex Flex-1 Flex--center Flex--column">
+					<div class="Newsletter Flex Flex-1 Flex--center Flex--column min-height">
 						<h3 class="Section__title">Newsletter</h3>
 						<form method="POST">
 							{{ csrf_field() }}
