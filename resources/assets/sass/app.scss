@@ -19,6 +19,10 @@ $skyBlue: #00D7D2;
 	min-height: 200px;
 }
 
+.min-height-200 {
+	min-height: 200px;
+}
+
 body {
 	background: white;
 	font-family: 'Raleway', sans-serif;
@@ -66,8 +70,10 @@ footer {
 
 @import 'components/Grid';
 @import 'components/Brand';
+@import 'components/Eyescream';
+@import 'components/KrushBurger';
 @import 'components/QueensChips';
 @import 'components/AlsBeef';
-@import 'components/ButtonMorph';
+@import 'components/PlayButton';
 @import 'components/MediaQueries';
 @import 'components/Overwrite';

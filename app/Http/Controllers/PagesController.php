@@ -22,4 +22,14 @@ class PagesController extends Controller
     {
     	return view('public.brands.als-beef');
     }
+
+    public function krushBurger()
+    {
+        return view('public.brands.krush-burger');
+    }
+
+    public function eyescream()
+    {
+        return view('public.brands.eyescream');
+    }
 }

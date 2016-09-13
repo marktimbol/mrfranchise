@@ -2604,7 +2604,7 @@ if (!Object.isExtensible) {
  * Video.js 5.13.0 <http://videojs.com/>
  * Copyright Brightcove, Inc. <https://www.brightcove.com/>
  * Available under Apache License Version 2.0
- * <https://github.com/video/build/js/video-92985945bc.js/blob/master/LICENSE>
+ * <https://github.com/video/build/js/video-f45b73cc6a.js/blob/master/LICENSE>
  *
  * Includes vtt.js <https://github.com/mozilla/vtt.js>
  * Available under Apache License Version 2.0
@@ -3815,7 +3815,7 @@ var Component = function () {
         }).filter(function (child) {
           // we have to make sure that child.name isn't in the techOrder since
           // techs are registerd as Components but can't aren't compatible
-          // See https://github.com/video/build/js/video-92985945bc.js/issues/2772
+          // See https://github.com/video/build/js/video-f45b73cc6a.js/issues/2772
           var c = Component.getComponent(child.opts.componentClass || (0, _toTitleCase2['default'])(child.name));
 
           return c && !Tech.isTech(c);
@@ -10979,7 +10979,7 @@ var Player = function (_Component) {
     if (safety && safety.IWillNotUseThisInPlugins) {
       return this.tech_;
     }
-    var errorText = '\n      Please make sure that you are not using this inside of a plugin.\n      To disable this alert and error, please pass in an object with\n      `IWillNotUseThisInPlugins` to the `tech` method. See\n      https://github.com/video/build/js/video-92985945bc.js/issues/2617 for more info.\n    ';
+    var errorText = '\n      Please make sure that you are not using this inside of a plugin.\n      To disable this alert and error, please pass in an object with\n      `IWillNotUseThisInPlugins` to the `tech` method. See\n      https://github.com/video/build/js/video-f45b73cc6a.js/issues/2617 for more info.\n    ';
 
     _window2['default'].alert(errorText);
     throw new Error(errorText);
@@ -16372,7 +16372,7 @@ Html5.nativeSourceHandler = {};
  */
 Html5.nativeSourceHandler.canPlayType = function (type) {
   // IE9 on Windows 7 without MediaPlayer throws an error here
-  // https://github.com/video/build/js/video-92985945bc.js/issues/519
+  // https://github.com/video/build/js/video-f45b73cc6a.js/issues/519
   try {
     return Html5.TEST_VID.canPlayType(type);
   } catch (e) {
@@ -16451,7 +16451,7 @@ Html5.canControlVolume = function () {
  */
 Html5.canControlPlaybackRate = function () {
   // Playback rate API is implemented in Android Chrome, but doesn't do anything
-  // https://github.com/video/build/js/video-92985945bc.js/issues/3180
+  // https://github.com/video/build/js/video-f45b73cc6a.js/issues/3180
   if (browser.IS_ANDROID && browser.IS_CHROME) {
     return false;
   }
@@ -16478,7 +16478,7 @@ Html5.supportsNativeTextTracks = function () {
   // If mode is a number, we cannot change it because it'll disappear from view.
   // Browsers with numeric modes include IE10 and older (<=2013) samsung android models.
   // Firefox isn't playing nice either with modifying the mode
-  // TODO: Investigate firefox: https://github.com/video/build/js/video-92985945bc.js/issues/1862
+  // TODO: Investigate firefox: https://github.com/video/build/js/video-f45b73cc6a.js/issues/1862
   supportsTextTracks = !!Html5.TEST_VID.textTracks;
   if (supportsTextTracks && Html5.TEST_VID.textTracks.length > 0) {
     supportsTextTracks = typeof Html5.TEST_VID.textTracks[0].mode !== 'number';
@@ -27546,8 +27546,16 @@ function extend() {
 
 }(this, (this.vttjs || {})));
 
-let video = videojs('brand-video');
-video.ready(() => {
-	
+
+$(document).ready(function() {
+	let video = videojs('brand-video');
+
+	$('#VideoModal').on('show.bs.modal', function(e) {	
+		video.play();
+	});
+
+	$('#VideoModal').on('hide.bs.modal', function(e) {
+		video.pause();
+	});
 });
 //# sourceMappingURL=video.js.map
