@@ -14,17 +14,17 @@
 		<div class="Brand__header Flex">
 			<div class="Brand__logo--container Flex Flex--column">
 				<div class="Brand__logo Flex Flex--center Flex-1">
-					<?xml version="1.0" encoding="utf-8"?>
+				<?xml version="1.0" encoding="utf-8"?>
 					<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 					<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-						 width="300px" height="257px" viewBox="0 0 300 257" style="enable-background:new 0 0 300 257;" xml:space="preserve">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px"
+						 height="257px" viewBox="0 0 300 257" style="enable-background:new 0 0 300 257;" xml:space="preserve">
 					<style type="text/css">
 					<![CDATA[
 						.st0{fill:#010101;}
 					]]>
 					</style>
-					<g>
+					<g id="eyescream">
 						<g>
 							<path class="st0" d="M123.2,66.8c0.9-1.2,2.4-2.3,3.8-1.5c1.3,1.6-0.3,3.3-1.3,4.6c-1.6,1.8-0.7,4.3-0.4,6.5
 								c0.9,4.1,0.6,8.4-0.1,12.5c2.6-2.3,5.3-4.5,7.1-7.5c1.4-4.3,3.6-8.5,7.2-11.2c2.8-2.2,6.9-2.2,10-0.6c1.7,0.8,3,2.6,2.6,4.5
@@ -58,6 +58,8 @@
 								c0.4,1.8,2.3,3.3,4.2,2.7c1.9-0.5,3.1-2.3,3.6-4.1c1-3.6,0.4-7.4-0.4-11C118.8,75.6,117,77.7,115.4,79.9z M62.9,108.3
 								c-0.9,1.8,1.8,3.1,2.8,1.6c2.5-3.1,3.9-7,5.4-10.6C67.8,101.6,64.1,104.3,62.9,108.3z"/>
 						</g>
+					</g>
+					<g id="and">
 						<g>
 							<path class="st0" d="M162.4,109.1c1.1-0.5,2.3-1,3.4-1.4c-0.1,7.6-1.5,15.1-1,22.7c0.4,0,1.3,0.1,1.7,0.1c1-1.9,1.8-3.8,2.6-5.8
 								c0.2,0.5,0.5,1.4,0.6,1.9c-1,2.9-2.1,6.6-5.6,7.4c-0.3-0.3-0.9-0.9-1.2-1.2c-0.9,1.3-1.8,3.1-3.6,3c-1.8,0.2-2.9-1.3-3.9-2.6
@@ -69,6 +71,8 @@
 								c-1.1,2.7-1.1,5.9,0.5,8.4c0.7-0.8,1.6-1.5,1.7-2.6c0.4-2.5,0.4-5,0.3-7.5C160.4,123.6,159.3,124,158.9,125.1z M132.3,139.1
 								c0.2,1.4-0.1,3.5,1.5,4.1c2.5-2.5,1.9-6.5,1.9-9.7C132.7,133.2,132.1,136.8,132.3,139.1z"/>
 						</g>
+					</g>
+					<g id="friends">
 						<path class="st0" d="M200.1,160.8c2.1-3.9,8.5-4.3,11-0.7c1.3,1.9,1.3,4.4,1.3,6.6c-1.6,0.2-3.1,0.3-4.7,0.5
 							c-0.2-1.7,0.4-4.2-1.5-5.1c-2.6-0.2-2.6,3.2-2,4.9c2.3,5.3,7.1,9.3,8.3,15.1c0.7,3,0.4,6.9-2.5,8.7c-3,1.7-7.5,1.4-9.6-1.7
 							c-1.7-2.2-1.3-5.1-1.3-7.6c1.6-0.1,3.1-0.1,4.7-0.2c0.2,1.9-0.5,4.4,1.2,5.8c3.1,1.1,3.5-3.1,2.7-5.2c-2.1-4.9-6.4-8.7-8-13.9
