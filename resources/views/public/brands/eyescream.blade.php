@@ -41,12 +41,15 @@
 							<div class="Brand__images">
 								<div class="flexslider">
 									<ul class="slides">
+										@foreach( range(1, 3) as $index )
 										<li>
-											<img src="/images/krush-burger/slides/slide.jpg" alt="Queen's Chips" title="Queen's Chips" class="img-responsive" />
+											<img 
+												src="/images/eyescream/slides/slide{{$index}}.jpg" 
+												alt="Eyescream and Friends" 
+												title="Eyescream and Friends" 
+												class="img-responsive" />
 										</li>
-										<li>
-											<img src="/images/krush-burger/slides/slide.jpg" alt="Queen's Chips" title="Queen's Chips" class="img-responsive" />
-										</li>
+										@endforeach
 									</ul>
 								</div>
 							</div>
@@ -81,7 +84,7 @@
 					<div class="About">
 						<div class="row">
 							<div class="col-md-7">
-								<h3 class="Section__title">About Krush Burger</h3>
+								<h3 class="Section__title">About Eyescream &amp; Friends</h3>
 								<p>
 									The Sandwich That Started It All The history of Al’s #1 Italian Beef Restaurants dates back to 1938 when Al Ferrari and his sister and brother-in-law, Frances and Chris Pacelli, Sr., developed the original idea and recipe for the original Italian beef sandwich.
 								</p>

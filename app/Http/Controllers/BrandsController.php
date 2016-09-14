@@ -10,8 +10,8 @@ class BrandsController extends Controller
 {
     public function index()
     {
-    	$brands = Brand::latest()->get();
-    	return view('public.brands.index', compact('brands'));
+    	// $brands = Brand::latest()->get();
+    	return view('public.brands.index');
     }
 
     public function show($brand)

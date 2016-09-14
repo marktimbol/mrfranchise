@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
-@section('pageTitle', "Queen's Chips")
+@section('pageTitle', "Nancy's Pizza")
 
 @section('header_styles')
 	<link rel="stylesheet" href="{{ elixir('css/video.css') }}" />
 	<link rel="stylesheet" href="{{ elixir('css/carousel.css') }}" />
 @endsection
 
-@section('bodyClass', 'Queens-chips')
+@section('bodyClass', 'Nancys-pizza')
 
 @section('content')
 	<div class="Brand">
@@ -41,11 +41,20 @@
 							<div class="Brand__images">
 								<div class="flexslider">
 									<ul class="slides">
-										@foreach( range(1, 6) as $index )
 										<li>
-											<img src="/images/queens-chips/slides/slide{{$index}}.jpg" alt="Queen's Chips" title="Queen's Chips" class="img-responsive" />
+											<img 
+												src="/images/nancys-pizza/slides/slide1.jpg" 
+												alt="Nancy's Pizza" 
+												title="Nancy's Pizza" 
+												class="img-responsive" />
 										</li>
-										@endforeach
+										<li>
+											<img 
+												src="/images/nancys-pizza/slides/slide1.jpg" 
+												alt="Nancy's Pizza" 
+												title="Nancy's Pizza" 
+												class="img-responsive" />
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -80,7 +89,7 @@
 					<div class="About">
 						<div class="row">
 							<div class="col-md-7">
-								<h3 class="Section__title">About Queen's Chips</h3>
+								<h3 class="Section__title">About Nancy's Pizza</h3>
 								<p>
 									The Sandwich That Started It All The history of Al’s #1 Italian Beef Restaurants dates back to 1938 when Al Ferrari and his sister and brother-in-law, Frances and Chris Pacelli, Sr., developed the original idea and recipe for the original Italian beef sandwich.
 								</p>
@@ -169,7 +178,7 @@
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 							<span aria-hidden="true">&times;</span>
 						</button>
-						<h4 class="modal-title">Queen's Chips Video</h4>
+						<h4 class="modal-title">Krush Burger Video</h4>
 					</div>
 					<div class="modal-body">
 						<video id="brand-video" class="video-js" controls muted preload="auto"

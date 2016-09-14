@@ -6756,7 +6756,6 @@ button.close {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
 .color-white {
   color: white !important; }
 
@@ -6880,7 +6879,7 @@ footer {
   -webkit-box-flex: 0.75;
   flex: 0.75;
   width: 100%;
-  height: 85vh;
+  height: 55vh;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6892,7 +6891,14 @@ footer {
     margin-right: 10px; }
 
 .Brand__testimonials {
+  position: relative;
   background: url("/images/wood-sm.jpg") no-repeat; }
+  .Brand__testimonials::before {
+    width: 90%;
+    height: 90%;
+    content: '';
+    position: absolute;
+    border: 1px solid #fefefe; }
 
 .testimonials {
   width: 80%;
@@ -6956,6 +6962,7 @@ footer {
   position: relative; }
 
 .Newsletter {
+  min-height: 250px;
   background: #FF5C01;
   position: relative; }
   .Newsletter:before {
@@ -6978,27 +6985,50 @@ footer {
 .Inquiry-bg {
   margin-right: 20px;
   background-size: cover;
+  background-position: bottom;
   background: url("/images/inquire-now.jpg") no-repeat; }
 
 .Eyescream {
-  background: url("/images/krush-burger/bg.JPG") no-repeat;
+  background: url("/images/eyescream/bg.jpg") no-repeat;
   background-size: contain; }
   .Eyescream .Brand__logo,
   .Eyescream .Brand__images {
-    background: #FAA31B; }
+    background: #EA5E5C; }
   .Eyescream .Brand__hero {
-    background-image: url("/images/krush-burger/cover.jpg"); }
+    background-image: url("/images/eyescream/cover.jpg"); }
   .Eyescream .Brand__emoji {
-    background: #761213; }
+    background: #FADA55; }
   .Eyescream .emoji {
-    color: #FAA31B; }
+    color: #EA5E5C; }
   .Eyescream .About {
     background: #FAF8EB url("/images/queens-chips/about.jpg") right bottom no-repeat; }
     .Eyescream .About .Section__title {
       color: #2A4634; }
   .Eyescream .Newsletter {
-    background: #FAA31B; }
+    background: #FADA55; }
   .Eyescream .FindUs .Section__title {
+    color: #333;
+    font-weight: 700; }
+
+.Nancys-pizza {
+  background: url("/images/nancys-pizza/bg.jpg") no-repeat;
+  background-size: contain; }
+  .Nancys-pizza .Brand__logo,
+  .Nancys-pizza .Brand__images {
+    background: #231F20; }
+  .Nancys-pizza .Brand__hero {
+    background-image: url("/images/nancys-pizza/cover.jpg"); }
+  .Nancys-pizza .Brand__emoji {
+    background: #EC1B23; }
+  .Nancys-pizza .emoji {
+    color: white; }
+  .Nancys-pizza .About {
+    background: #FAF8EB url("/images/queens-chips/about.jpg") right bottom no-repeat; }
+    .Nancys-pizza .About .Section__title {
+      color: #2A4634; }
+  .Nancys-pizza .Newsletter {
+    background: #FADA55; }
+  .Nancys-pizza .FindUs .Section__title {
     color: #333;
     font-weight: 700; }
 
@@ -7214,7 +7244,7 @@ footer {
   display: inline-block; }
 
 .modal-dialog {
-  width: 90vw; }
+  width: 60vw; }
 
 /*# sourceMappingURL=app.css.map */
 

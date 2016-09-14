@@ -28,6 +28,11 @@ class PagesController extends Controller
         return view('public.brands.krush-burger');
     }
 
+    public function nancysPizza()
+    {
+        return view('public.brands.nancys-pizza');
+    }
+
     public function eyescream()
     {
         return view('public.brands.eyescream');

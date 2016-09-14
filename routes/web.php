@@ -24,9 +24,12 @@ Route::get('/add', function() {
 	return 'Done';
 });
 
+
+Route::get('brands', 'BrandsController@index');
 Route::get('/brands/queens-chips', 'PagesController@queensChips');
 Route::get('/brands/als-beef', 'PagesController@alsBeef');
 Route::get('/brands/krush-burger', 'PagesController@krushBurger');
+Route::get('/brands/nancys-pizza', 'PagesController@nancysPizza');
 Route::get('/brands/eyescream-and-friends', 'PagesController@eyescream');
 
 // Route::resource('brands', 'BrandsController', [
