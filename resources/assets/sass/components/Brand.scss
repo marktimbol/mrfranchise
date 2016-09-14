@@ -96,6 +96,13 @@
 	height: 100%;
 	padding: 40px;
 	background: #ddd;
+
+	.Section__title {
+		color: #333;
+	}
+	p, li {
+		color: #333;
+	}
 }
 
 .FindUs--container {

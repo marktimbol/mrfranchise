@@ -14,6 +14,9 @@ body {
   background: white;
   font-family: 'Raleway', sans-serif; }
 
+svg {
+  width: 100%; }
+
 .Content {
   margin-bottom: 20rem; }
 
@@ -176,6 +179,10 @@ footer {
   height: 100%;
   padding: 40px;
   background: #ddd; }
+  .About .Section__title {
+    color: #333; }
+  .About p, .About li {
+    color: #333; }
 
 .FindUs--container {
   height: 100%;
@@ -243,9 +250,7 @@ footer {
   .Eyescream .emoji {
     color: #EA5E5C; }
   .Eyescream .About {
-    background: #FAF8EB url("/images/queens-chips/about.jpg") right bottom no-repeat; }
-    .Eyescream .About .Section__title {
-      color: #2A4634; }
+    background: #F9F9F9 url("/images/eyescream/about.jpg") right center no-repeat; }
   .Eyescream .Newsletter {
     background: #FADA55; }
   .Eyescream .FindUs .Section__title {
@@ -265,9 +270,7 @@ footer {
   .Nancys-pizza .emoji {
     color: white; }
   .Nancys-pizza .About {
-    background: #FAF8EB url("/images/queens-chips/about.jpg") right bottom no-repeat; }
-    .Nancys-pizza .About .Section__title {
-      color: #2A4634; }
+    background: #FAF8EB url("/images/nancys-pizza/about.png") right center no-repeat; }
   .Nancys-pizza .Newsletter {
     background: #FADA55; }
   .Nancys-pizza .FindUs .Section__title {
@@ -287,9 +290,7 @@ footer {
   .Krush-burger .emoji {
     color: #FAA31B; }
   .Krush-burger .About {
-    background: #FAF8EB url("/images/queens-chips/about.jpg") right bottom no-repeat; }
-    .Krush-burger .About .Section__title {
-      color: #2A4634; }
+    background: #F9F9F9; }
   .Krush-burger .Newsletter {
     background: #FAA31B; }
   .Krush-burger .FindUs .Section__title {
@@ -310,8 +311,6 @@ footer {
     color: #2A4634; }
   .Queens-chips .About {
     background: #FAF8EB url("/images/queens-chips/about.jpg") right bottom no-repeat; }
-    .Queens-chips .About .Section__title {
-      color: #2A4634; }
   .Queens-chips .Newsletter {
     background: #FCCE01; }
   .Queens-chips .FindUs .Section__title {
@@ -331,9 +330,7 @@ footer {
   .Als-beef .emoji {
     color: black; }
   .Als-beef .About {
-    background: #FAF8EB url("/images/als-beef/about.png") right bottom no-repeat; }
-    .Als-beef .About .Section__title {
-      color: #2A4634; }
+    background: #FAF8EB url("/images/als-beef/about.png") right center no-repeat; }
   .Als-beef .Newsletter .Section__title {
     color: #333; }
   .Als-beef .FindUs .Section__title {

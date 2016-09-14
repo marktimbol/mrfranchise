@@ -22,7 +22,7 @@
     </script>
 </head>
 <body class="@yield('bodyClass')">
-    @include('layouts.nav')
+    @include('layouts._nav')
 
     <div class="Content container">
         @yield('content')

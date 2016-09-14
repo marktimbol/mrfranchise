@@ -22,7 +22,6 @@ elixir(mix => {
       .scripts([
         bowersPath + 'jquery/dist/jquery.js',
         bowersPath + 'bootstrap/dist/js/bootstrap.js',
-        bowersPath + 'gsap/src/uncompressed/TweenMax.js',
         'app.js'
       ], 'public/js/app.js')
 
@@ -49,13 +48,6 @@ elixir(mix => {
           'map.js',
       ], 'public/js/map.js')
 
-      .scripts([
-        'modernizr.custom.js',
-        'classie.js',
-        'uiMorphingButton_fixed.js',
-        'morphing-button.js'
-      ], 'public/js/morphing-button.js')
-
       .copy('bower_components/bootstrap/dist/fonts', 'public/build/css/fonts')
        
        .version([
@@ -65,7 +57,6 @@ elixir(mix => {
           'public/js/video.js',
           'public/css/carousel.css',
           'public/js/carousel.js',
-          'public/js/map.js',
-       		'public/js/morphing-button.js',
+          'public/js/map.js'
        ]);
 });
