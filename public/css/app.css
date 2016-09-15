@@ -6776,7 +6776,7 @@ svg {
   width: 100%; }
 
 .Content {
-  margin-bottom: 20rem; }
+  margin-bottom: 40px; }
 
 .Section__title {
   margin: 0;
@@ -6816,8 +6816,8 @@ footer {
   flex: 1; }
 
 .Column-9 {
-  -webkit-box-flex: 0.7;
-  flex: 0.7; }
+  -webkit-box-flex: 0.75;
+  flex: 0.75; }
 
 .Column-8 {
   -webkit-box-flex: 0.6;
@@ -6828,12 +6828,12 @@ footer {
   flex: 0.5; }
 
 .Column-4 {
-  -webkit-box-flex: 0.4;
-  flex: 0.4; }
+  -webkit-box-flex: .33;
+  flex: .33; }
 
 .Column-3 {
-  -webkit-box-flex: 0.3;
-  flex: 0.3; }
+  -webkit-box-flex: 0.25;
+  flex: 0.25; }
 
 .Flex {
   display: -webkit-box;
@@ -6860,14 +6860,14 @@ footer {
   -webkit-box-pack: center;
   justify-content: center; }
 
+.Space-between {
+  -webkit-box-pack: justify;
+  justify-content: space-between; }
+
 .logo {
   width: 50px;
   height: 50px;
   background: #333; }
-
-.Brand__logo--container {
-  -webkit-box-flex: 0.25;
-  flex: 0.25; }
 
 .Brand__logo {
   color: white; }
@@ -6879,19 +6879,12 @@ footer {
     color: #333; }
 
 .Brand__hero {
-  -webkit-box-flex: 0.75;
-  flex: 0.75;
   width: 100%;
   height: 55vh;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center; }
-
-.Brand__menu {
-  margin-bottom: 10px; }
-  .Brand__menu .Column-3 {
-    margin-right: 10px; }
 
 .Brand__testimonials {
   position: relative;
@@ -6915,24 +6908,6 @@ footer {
   font-size: 16px;
   text-align: center; }
 
-.Social a {
-  height: 100%;
-  min-height: 100px; }
-  .Social a:hover {
-    text-decoration: none; }
-
-.Social__instagram {
-  background: #3D6B92; }
-
-.Social__email {
-  background: #3D6B92; }
-
-.Social__twitter {
-  background: #55acee; }
-
-.Social__facebook {
-  background: #3b5998; }
-
 .About {
   height: 100%;
   padding: 40px;
@@ -6941,59 +6916,6 @@ footer {
     color: #333; }
   .About p, .About li {
     color: #333; }
-
-.FindUs--container {
-  height: 100%;
-  position: relative; }
-
-.FindUs {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
-  .FindUs .form-control {
-    border: 1px solid #2A4634; }
-  .FindUs .Section__title, .FindUs .form-group {
-    width: 50%;
-    z-index: 9999;
-    text-align: center; }
-
-.FindUs__content {
-  height: 100%; }
-
-#GoogleMap {
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  position: relative; }
-
-.Newsletter {
-  min-height: 250px;
-  background: #FF5C01;
-  position: relative; }
-  .Newsletter:before {
-    top: 0; }
-  .Newsletter:after {
-    bottom: -1px; }
-  .Newsletter:before, .Newsletter:after {
-    content: "";
-    left: 0;
-    width: 100%;
-    height: 6px;
-    position: absolute;
-    background: url("/images/newsletter-strap.png") repeat-x; }
-  .Newsletter form {
-    width: 80%; }
-
-.Promo {
-  background: url("/images/wood-sm.jpg") no-repeat; }
-
-.Inquiry-bg {
-  margin-right: 20px;
-  background-size: cover;
-  background-position: bottom;
-  background: url("/images/inquire-now.jpg") no-repeat; }
 
 .Eyescream {
   background: url("/images/eyescream/bg.jpg") no-repeat;
@@ -7009,11 +6931,6 @@ footer {
     color: #EA5E5C; }
   .Eyescream .About {
     background: #F9F9F9 url("/images/eyescream/about.jpg") right center no-repeat; }
-  .Eyescream .Newsletter {
-    background: #FADA55; }
-  .Eyescream .FindUs .Section__title {
-    color: #333;
-    font-weight: 700; }
 
 .Nancys-pizza {
   background: url("/images/nancys-pizza/bg.jpg") no-repeat;
@@ -7029,11 +6946,6 @@ footer {
     color: white; }
   .Nancys-pizza .About {
     background: #FAF8EB url("/images/nancys-pizza/about.png") right center no-repeat; }
-  .Nancys-pizza .Newsletter {
-    background: #FADA55; }
-  .Nancys-pizza .FindUs .Section__title {
-    color: #333;
-    font-weight: 700; }
 
 .Krush-burger {
   background: url("/images/krush-burger/bg.JPG") no-repeat;
@@ -7049,11 +6961,6 @@ footer {
     color: #FAA31B; }
   .Krush-burger .About {
     background: #F9F9F9; }
-  .Krush-burger .Newsletter {
-    background: #FAA31B; }
-  .Krush-burger .FindUs .Section__title {
-    color: #333;
-    font-weight: 700; }
 
 .Queens-chips {
   background: url("/images/queens-chips/bg.jpg") no-repeat;
@@ -7069,19 +6976,13 @@ footer {
     color: #2A4634; }
   .Queens-chips .About {
     background: #FAF8EB url("/images/queens-chips/about.jpg") right bottom no-repeat; }
-  .Queens-chips .Newsletter {
-    background: #FCCE01; }
-  .Queens-chips .FindUs .Section__title {
-    color: #333;
-    font-weight: 700; }
 
 .Als-beef {
   background: url("/images/als-beef/bg.jpg") no-repeat;
   background-size: contain; }
   .Als-beef .Brand__logo,
   .Als-beef .Brand__images,
-  .Als-beef .Brand__emoji,
-  .Als-beef .Newsletter {
+  .Als-beef .Brand__emoji {
     background: #FEF200; }
   .Als-beef .Brand__hero {
     background-image: url("/images/als-beef/cover.jpg"); }
@@ -7089,11 +6990,6 @@ footer {
     color: black; }
   .Als-beef .About {
     background: #FAF8EB url("/images/als-beef/about.png") right center no-repeat; }
-  .Als-beef .Newsletter .Section__title {
-    color: #333; }
-  .Als-beef .FindUs .Section__title {
-    color: #333;
-    font-weight: 700; }
 
 .play-video-icon {
   width: 80px;
@@ -7121,6 +7017,42 @@ footer {
 @keyframes shadowPulse {
   to {
     box-shadow: 0 0 0 45px rgba(255, 255, 255, 0); } }
+
+footer {
+  padding: 40px 0px 0px;
+  background: #34383B; }
+  footer .Footer__logo img {
+    margin: 0 auto; }
+  footer li {
+    line-height: 24px; }
+  footer a {
+    color: white; }
+    footer a:hover {
+      color: white;
+      text-decoration: underline; }
+
+.Footer__title {
+  color: white;
+  margin-bottom: 30px; }
+
+.Footer__text {
+  color: white; }
+
+.Links {
+  list-style: none;
+  padding-left: 0;
+  text-align: right; }
+
+.Follow_us {
+  list-style: none;
+  padding-left: 0; }
+  .Follow_us li {
+    margin: 0 20px; }
+
+.Copyright {
+  padding: 20px;
+  margin-top: 40px;
+  background: #282b2d; }
 
 @media screen and (max-width: 320px) {
   .Content {
@@ -7201,25 +7133,6 @@ footer {
 
 .form-control {
   border-radius: 0; }
-
-.input-newsletter {
-  color: #333;
-  background: none;
-  border: 1px solid #333;
-  box-shadow: none; }
-  .input-newsletter:active, .input-newsletter:hover, .input-newsletter:visited, .input-newsletter:focus {
-    border: 1px solid #333;
-    box-shadow: none; }
-  .input-newsletter::-webkit-input-placeholder {
-    color: #333; }
-  .input-newsletter:-moz-placeholder {
-    /* Firefox 18- */
-    color: #333; }
-  .input-newsletter::-moz-placeholder {
-    /* Firefox 19+ */
-    color: #333; }
-  .input-newsletter:-ms-input-placeholder {
-    color: #333; }
 
 .video-js {
   width: 100%;

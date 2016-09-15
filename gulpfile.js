@@ -27,36 +27,45 @@ elixir(mix => {
 
       .styles([
         bowersPath + 'video.js/dist/video-js.css',
-      ], 'public/css/video.css')
+      ], 'resources/assets/css/brand/video.css')
 
    	  .scripts([
    			bowersPath + 'video.js/dist/ie8/videojs-ie8.js',
    			bowersPath + 'video.js/dist/video.js',
    	    	'video.js',
-   		], 'public/js/video.js')
+   		], 'resources/assets/js/brand/video.js')
 
       .styles([
         bowersPath + 'flexslider/flexslider.css',
-      ], 'public/css/carousel.css')
+      ], 'resources/assets/css/brand/carousel.css')
 
       .scripts([
         bowersPath + 'flexslider/jquery.flexslider.js',
         'carousel.js'
-      ], 'public/js/carousel.js')
+      ], 'resources/assets/js/brand/carousel.js')
 
       .scripts([
           'map.js',
-      ], 'public/js/map.js')
+      ], 'resources/assets/js/brand/map.js')
+
+      .styles([
+        'brand/video.css',
+        'brand/carousel.css',
+      ], 'public/css/brand.css')
+
+      .scripts([
+        'brand/carousel.js',
+        'brand/video.js',
+        'brand/map.js',
+      ], 'public/js/brand.js')
 
       .copy('bower_components/bootstrap/dist/fonts', 'public/build/css/fonts')
+      .copy('bower_components/flexslider/fonts', 'public/build/css/fonts')
        
        .version([
        		'public/css/app.css',
-       		'public/js/app.js',
-       		'public/css/video.css',
-          'public/js/video.js',
-          'public/css/carousel.css',
-          'public/js/carousel.js',
-          'public/js/map.js'
+          'public/js/app.js',
+          'public/css/brand.css',
+       		'public/js/brand.js',
        ]);
 });

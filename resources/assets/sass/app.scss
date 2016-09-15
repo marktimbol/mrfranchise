@@ -30,8 +30,7 @@ svg {
 }
 
 .Content {
-	// margin: 0 6rem;
-	margin-bottom: 20rem;
+	margin-bottom: 40px;
 }
 
 .Section__title {
@@ -77,5 +76,6 @@ footer {
 @import 'components/QueensChips';
 @import 'components/AlsBeef';
 @import 'components/PlayButton';
+@import 'components/Footer';
 @import 'components/MediaQueries';
 @import 'components/Overwrite';

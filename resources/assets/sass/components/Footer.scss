@@ -1,0 +1,50 @@
+footer {
+	padding: 40px 0px 0px;
+	background: #34383B;
+	.Footer__logo {
+		img {
+			margin: 0 auto;
+		}
+	}
+
+	li {
+		line-height: 24px;
+	}
+
+	a {
+		color: white;
+		&:hover {
+			color: white;
+			text-decoration: underline;
+		}
+	}
+}
+
+.Footer__title {
+	color: white;
+	margin-bottom: 30px;
+}
+
+.Footer__text {
+	color: white;
+}
+
+.Links {
+	list-style: none;
+	padding-left: 0;
+	text-align: right;
+}
+
+.Follow_us {
+	list-style: none;
+	padding-left: 0;
+	li {
+		margin: 0 20px;
+	}
+}
+
+.Copyright {
+	padding: 20px;
+	margin-top: 40px;
+	background: darken(#34383B, 5%);
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["map.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"map.js","sourcesContent":["function initMap() {\n\tlet mapDiv = document.getElementById('GoogleMap');\n\tlet map = new google.maps.Map(mapDiv, {\n\t\tcenter: {\n\t\t\tlat: 44.540,\n\t\t\tlng: -78.546\n\t\t},\n\t\tzoom: 8\n\t});\n}"],"sourceRoot":"/source/"}

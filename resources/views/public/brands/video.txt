@@ -12,3 +12,59 @@
 		</span>
 	</video>
 </div>
+
+
+// Footer
+
+<div class="Row">
+	<div class="Column-9">
+		<div class="FindUs--container">
+			<div id="GoogleMap"></div>
+			<div class="FindUs">
+				<div class="FindUs__content Flex Flex--center Flex--column">
+					<h3 class="Section__title">Find Nearby</h3>
+					<div class="form-group">
+						<input type="text" name="city" class="form-control" placeholder="Enter your city" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="Column-3 Flex Flex--column">
+		<div class="Newsletter Flex Flex-1 Flex--center Flex--column min-height-200">
+			<h3 class="Section__title">Newsletter</h3>
+			<form method="POST">
+				{{ csrf_field() }}
+				<div class="form-group">
+					<input type="text" name="email" class="form-control input-bordered" placeholder="Join our weekly newsletter" />
+				</div>
+			</form>
+		</div>
+		<div class="SocialMedias Flex Flex-1">
+			<div class="Social Flex Flex-1 Flex--column">
+				<div class="Social__email Flex Flex--center Flex-1">
+					<a href='#' target="_blank" class="Flex Flex--center Flex-1">
+						<i class="fa fa-envelope fa-3x color-white" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div class="Social__twitter Flex Flex--center Flex-1">
+					<a href="#" target="_blank" class="Flex Flex--center Flex-1">
+						<i class="fa fa-twitter fa-3x color-white" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+			<div class="Social Flex Flex-1 Flex--column">
+				<div class="Social__facebook Flex Flex--center Flex-1">
+					<a href="#" target="_blank" class="Flex Flex--center Flex-1">
+						<i class="fa fa-facebook fa-3x color-white" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div class="Social__instagram Flex Flex--center Flex-1">
+					<a href="#" target="_blank" class="Flex Flex--center Flex-1">
+						<i class="fa fa-instagram fa-3x color-white" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

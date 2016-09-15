@@ -12451,8 +12451,5 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-// app.js
-// TweenMax.to('.logo', 2, {
-// 	ease: Power2.easeInOut
-// });
+//
 //# sourceMappingURL=app.js.map

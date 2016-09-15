@@ -1,3 +1,4 @@
+
 .Row {
 	display: flex;
 }
@@ -7,7 +8,8 @@
 }
 
 .Column-9 {
-	flex: 0.7;
+	// flex: 0.7;
+	flex: 0.75;
 }
 
 .Column-8 {
@@ -19,11 +21,13 @@
 }
 
 .Column-4 {
-	flex: 0.4;
+	// flex: 0.4;
+	flex: .33;
 }
 
 .Column-3 {
-	flex: 0.3;
+	// flex: 0.3;
+	flex: 0.25;
 }
 
 .Flex {
@@ -45,4 +49,8 @@
 .Flex--center {
 	align-items: center;
 	justify-content: center;
+}
+
+.Space-between {
+	justify-content: space-between;
 }

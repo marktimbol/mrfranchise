@@ -4,10 +4,6 @@
 	background: #333;
 }
 
-.Brand__logo--container {
-	flex: 0.25;
-}
-
 .Brand__logo {
     color: white; // temp
 }
@@ -21,20 +17,12 @@
 }
 
 .Brand__hero {
-	flex: 0.75;
     width: 100%;
     height: 55vh;
     position: relative;
     background-size: cover;
 	background-repeat: no-repeat;
     background-position: top center;
-}
-
-.Brand__menu {
-	margin-bottom: 10px;
-	.Column-3 {
-		margin-right: 10px;
-	}
 }
 
 .Brand__testimonials {
@@ -66,110 +54,14 @@
 	text-align: center;
 }
 
-.Social {
-	a {
-		height: 100%;
-		min-height: 100px;
-		&:hover {
-			text-decoration: none;
-		}
-	}
-}
-
-.Social__instagram {
-	background: #3D6B92;
-}
-
-.Social__email {
-	background: #3D6B92;
-}
-
-.Social__twitter {
-	background: #55acee;
-}
-
-.Social__facebook {
-	background: #3b5998;
-}
-
 .About {
 	height: 100%;
 	padding: 40px;
 	background: #ddd;
-
 	.Section__title {
 		color: #333;
 	}
 	p, li {
 		color: #333;
 	}
-}
-
-.FindUs--container {
-	height: 100%;
-	position: relative;
-}
-
-.FindUs {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-
-	.form-control {
-	    border: 1px solid #2A4634;
-	}
-
-	.Section__title, .form-group {
-		width: 50%;
-		z-index: 9999;
-	    text-align: center;
-	}
-
-}
-
-.FindUs__content {
-	height: 100%;
-}
-
-#GoogleMap {
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	position: relative;
-}
-
-.Newsletter {
-	min-height: 250px;
-	background: $orange;
-	position: relative;
-	&:before {
-		top: 0;
-	}
-	&:after {
-		bottom: -1px;
-	}
-	&:before, &:after {
-		content: "";
-		left: 0;
-		width: 100%;
-		height: 6px;
-		position: absolute;
-		background: url('/images/newsletter-strap.png') repeat-x;
-	}
-	form {
-	    width: 80%;
-	}
-}
-
-.Promo {
-	background: url('/images/wood-sm.jpg') no-repeat;
-}
-
-.Inquiry-bg {
-	margin-right: 20px;
-    background-size: cover;
-    background-position: bottom;
-	background: url('/images/inquire-now.jpg') no-repeat;
 }

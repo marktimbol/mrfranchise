@@ -26,16 +26,9 @@
 
     <div class="Content container">
         @yield('content')
-
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p>Terms &amp; Conditions</p>
-                    </div>
-                </div>
-        </footer>
     </div>
+
+    @include('layouts._footer')
 
     <!-- Scripts -->
     <script src="/js/app.js"></script>
