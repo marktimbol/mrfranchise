@@ -5,19 +5,18 @@
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
-				<h4 class="modal-title">Inquire now</h4>
+				<img src="/images/logo.png" alt="Mr. Franchise logo" title="Mr. Franchise logo" class="img-responsive" />
 			</div>
 			<div class="modal-body">
 				<div class="Row">
-					<div class="Column-4 Inquiry-bg">
-						
-					</div>
+					<div class="Column-4 Inquiry-bg"></div>
 					<div class="Column-8">
 						<form method="POST">
 							{{ csrf_field() }}
 							<p>
 								Now that you have familiarized yourself with Mr. Franchise Franchising and believe a Mr. Franchise is right for you please complete our online inquiry form and one of our representative will contact you shortly.
 							</p>
+							<hr />
                             <div class="form-group">
                             	<label for="name">Name</label>
                             	<input type="text" id="name" name="name" placeholder="Name" class="form-control" required>

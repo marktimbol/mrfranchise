@@ -122,7 +122,7 @@
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 							<span aria-hidden="true">&times;</span>
 						</button>
-						<h4 class="modal-title">Queen's Chips Video</h4>
+						<img src="/images/logo.png" alt="Mr. Franchise logo" title="Mr. Franchise logo" class="img-responsive" />
 					</div>
 					<div class="modal-body">
 						<video id="brand-video" class="video-js" controls muted preload="auto" data-setup="{}">
@@ -131,9 +131,6 @@
 								To view this video please enable JavaScript, and consider upgrading to a web browser that
 								<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
 							</p>
-							<span id="playButton">
-								<i class="fa fa-play-circle-o" aria-hidden="true"></i>
-							</span>
 						</video>
 					</div>
 					<div class="modal-footer">
