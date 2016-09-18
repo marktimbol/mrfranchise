@@ -155,7 +155,4 @@
 
 @section('footer_scripts')
 	<script src="{{ elixir('js/brand.js') }}"></script>
-	<script async defer
-	     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDhZv02uNCor_FCBsIeJIeCE4nlcnLPIY&callback=initMap">
-	</script>
 @endsection

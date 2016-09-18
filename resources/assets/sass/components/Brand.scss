@@ -56,7 +56,7 @@
 
 .About {
 	height: 100%;
-	padding: 40px;
+	padding: 40px 40px 0px 40px;
 	background: #ddd;
 	.Section__title {
 		color: #333;
@@ -71,4 +71,23 @@
 	background: url('/images/inquire-now.jpg') no-repeat;
 	background-position: bottom;
 	background-size: cover;
+}
+
+.How-it-works {
+    background: #232122;
+    padding: 20px 40px;
+
+    .Section__title {
+		margin: 40px 0px;
+    }
+
+    .Step__title {
+    	color: white;
+    	text-align: center;
+    	margin-bottom: 20px;
+    }
+
+    img {
+    	margin: 0 auto;
+    }
 }

@@ -152,7 +152,7 @@ footer {
 
 .About {
   height: 100%;
-  padding: 40px;
+  padding: 40px 40px 0px 40px;
   background: #ddd; }
   .About .Section__title {
     color: #333; }
@@ -164,6 +164,18 @@ footer {
   background: url("/images/inquire-now.jpg") no-repeat;
   background-position: bottom;
   background-size: cover; }
+
+.How-it-works {
+  background: #232122;
+  padding: 20px 40px; }
+  .How-it-works .Section__title {
+    margin: 40px 0px; }
+  .How-it-works .Step__title {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px; }
+  .How-it-works img {
+    margin: 0 auto; }
 
 .Eyescream {
   background: url("/images/eyescream/bg.jpg") no-repeat;
@@ -179,6 +191,10 @@ footer {
     color: #EA5E5C; }
   .Eyescream .About {
     background: #F9F9F9 url("/images/eyescream/about.jpg") right center no-repeat; }
+  .Eyescream .Content {
+    margin-bottom: 0; }
+  .Eyescream .Characters {
+    margin-top: 40px; }
 
 .Nancys-pizza {
   background: url("/images/nancys-pizza/bg.jpg") no-repeat;

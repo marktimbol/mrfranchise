@@ -83,9 +83,12 @@
 					<div class="About">
 						<div class="row">
 							<div class="col-md-7">
-								<h3 class="Section__title">About Eyescream &amp; Friends</h3>
+								<h3 class="Section__title">Why Eyescream &amp; Friends?</h3>
 								<p>
-									Eyescream and Friends is a young iconic brand serving original shaved gelato headquartered in Barcelona, Spain. Since the Grand Opening of the Flagship store on the main avenue of the thriving Barceloneta neighborhood in 2012, eyescream and friends soon became a popular “must visit” attraction for young and old from across the globe.
+									Be part of an exciting and iconic brand.
+								</p>
+								<p>
+									Since our Grand Opening in 2012, eyescream and friends has positioned itself in the ranks with well-established brands with high demand in various international markets, offering an attractive and unique user-experience. With a proven and award winning concept and design, eyescream and friends makes for an attractive franchise opportunity led by a young yet highly experienced team of professionals.
 								</p>
 								<p>&nbsp;</p>
 								<h3 class="Section__title">Immediate Opportunities</h3>
@@ -107,6 +110,11 @@
 						</div>
 					</div>
 				</div>	
+			</div>
+			<div class="Row Characters">
+				<div class="Column-12">
+					<img src="/images/eyescream/characters.png" alt="Eyescream and Friends characters" title="Eyescream and Friends characters" class="img-responsive" />
+				</div>
 			</div>
 		</div>
 
@@ -140,9 +148,38 @@
 	</div>
 @endsection
 
+@section('content_after_container')
+	<div class="How-it-works">
+		<div class="Row Flex--column">
+			<div class="Column-12">
+				<h3 class="Section__title text-center">Okay, but how it works?</h3>
+			</div>
+			<div class="Row Steps">
+				<div class="Column-3 Step">
+					<h4 class="Step__title">1. Pick your tray</h4>
+					<img src="/images/eyescream/pick-your-tray.png" alt="Pick your tray" title="Pick your tray" class="img-responsive" />
+				</div>
+
+				<div class="Column-3 Step">
+					<h4 class="Step__title">2. Order your favourite Flavour</h4>
+					<img src="/images/eyescream/order-your-favourite-flavour.jpg" alt="Order your favourite Flavour" title="Order your favourite Flavour" class="img-responsive" />
+				</div>
+
+				<div class="Column-3 Step">
+					<h4 class="Step__title">3. Grab two toppings</h4>
+					<img src="/images/eyescream/grab-two-toppings.jpg" alt="Grab two toppings" title="Grab two toppings" class="img-responsive" />
+				</div>
+
+				<div class="Column-3 Step">
+					<h4 class="Step__title">4. Enjoy</h4>
+					<img src="/images/eyescream/how-it-works-result.png" alt="Enjoy" title="Enjoy" class="img-responsive" />
+				</div>
+
+			</div>
+		</div>
+	</div>
+@endsection
+
 @section('footer_scripts')
 	<script src="{{ elixir('js/brand.js') }}"></script>
-	<script async defer
-	     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDhZv02uNCor_FCBsIeJIeCE4nlcnLPIY&callback=initMap">
-	</script>
 @endsection

@@ -28,6 +28,8 @@
         @yield('content')
     </div>
 
+    @yield('content_after_container')
+
     @include('layouts._footer')
 
     <!-- Scripts -->

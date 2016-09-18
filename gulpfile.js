@@ -56,7 +56,6 @@ elixir(mix => {
       .scripts([
         'brand/carousel.js',
         'brand/video.js',
-        'brand/map.js',
       ], 'public/js/brand.js')
 
       .copy('bower_components/bootstrap/dist/fonts', 'public/build/css/fonts')
