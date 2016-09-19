@@ -17,17 +17,17 @@
                 <ul class="Follow_us Flex Flex--center">
                     <li>
                         <a href="#">
-                            <i class="fa fa-facebook fa-2x color-white" aria-hidden="true"></i>
+                            <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <i class="fa fa-twitter fa-2x color-white" aria-hidden="true"></i>
+                            <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
                         </a>
                     </li>                   
                     <li>
                         <a href="#">
-                            <i class="fa fa-instagram fa-2x color-white" aria-hidden="true"></i>
+                            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
                         </a>
                     </li>
                 </ul>
@@ -46,7 +46,7 @@
     </div>
 
     <div class="Row Flex--center Copyright">
-        <p class="text-center color-white">
+        <p class="text-center">
             &copy; {{ date('Y') }} Mr. Franchise. All Rights Reserved. Register under the UAE Law. License No. 7140/2015
         </p>
     </div>

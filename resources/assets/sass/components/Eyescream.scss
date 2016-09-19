@@ -1,9 +1,13 @@
+$eyescreamPink: #EA5E5C;
+$eyescreamYellow: #FADA55;
+
 .Eyescream {
 	background: url('/images/eyescream/bg.jpg') no-repeat;
 	background-size: contain;
 	.Brand__logo, 
-	.Brand__images {
-		background: #EA5E5C;
+	.Brand__images,
+	.modal-header {
+		background: $eyescreamPink;
 	}
 
 	.Brand__hero {
@@ -11,11 +15,11 @@
 	}
 
 	.Brand__emoji {
-		background: #FADA55;
+		background: $eyescreamYellow;
 	}
 
 	.emoji {
-		color: #EA5E5C;
+		color: $eyescreamPink;
 	}
 	
 	.About {

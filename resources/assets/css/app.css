@@ -93,7 +93,9 @@ footer {
 .Flex--end {
   -webkit-box-align: end;
   -ms-grid-row-align: flex-end;
-  align-items: flex-end; }
+  align-items: flex-end;
+  -webkit-box-pack: end;
+  justify-content: flex-end; }
 
 .Flex--center {
   -webkit-box-align: center;
@@ -181,7 +183,8 @@ footer {
   background: url("/images/eyescream/bg.jpg") no-repeat;
   background-size: contain; }
   .Eyescream .Brand__logo,
-  .Eyescream .Brand__images {
+  .Eyescream .Brand__images,
+  .Eyescream .modal-header {
     background: #EA5E5C; }
   .Eyescream .Brand__hero {
     background-image: url("/images/eyescream/cover.jpg"); }
@@ -225,12 +228,39 @@ footer {
     color: #FAA31B; }
   .Krush-burger .About {
     background: #F9F9F9; }
+  .Krush-burger .modal-header {
+    background: #761213; }
+  .Krush-burger .Download-container {
+    padding: 40px 0px;
+    background: #FAA31B;
+    border-top: 8px solid #761213;
+    border-bottom: 8px solid #761213; }
+    .Krush-burger .Download-container .Section__title {
+      color: #761213; }
+    .Krush-burger .Download-container ul {
+      list-style: none;
+      padding-left: 0; }
+      .Krush-burger .Download-container ul li {
+        margin-right: 20px; }
+  .Krush-burger .Download {
+    display: block;
+    text-indent: -9999px;
+    background: url("/images/krush-burger/download.png") no-repeat; }
+  .Krush-burger .Download--google-play {
+    width: 197px;
+    height: 64px;
+    background-position: -2px -2px; }
+  .Krush-burger .Download--appstore {
+    width: 196px;
+    height: 66px;
+    background-position: -2px -70px; }
 
 .Queens-chips {
   background: url("/images/queens-chips/bg.jpg") no-repeat;
   background-size: contain; }
   .Queens-chips .Brand__logo,
-  .Queens-chips .Brand__images {
+  .Queens-chips .Brand__images,
+  .Queens-chips .modal-header {
     background: #2A4634; }
   .Queens-chips .Brand__hero {
     background-image: url("/images/queens-chips/cover.jpg"); }
@@ -283,24 +313,25 @@ footer {
     box-shadow: 0 0 0 45px rgba(255, 255, 255, 0); } }
 
 footer {
-  padding: 40px 0px 0px;
-  background: #34383B; }
+  background: #F9F9F9;
+  padding: 40px 0px 0px; }
   footer .Footer__logo img {
     margin: 0 auto; }
   footer li {
     line-height: 24px; }
   footer a {
-    color: white; }
+    color: #34383B;
+    text-decoration: none; }
     footer a:hover {
-      color: white;
+      color: #34383B;
       text-decoration: underline; }
 
 .Footer__title {
-  color: white;
+  color: #34383B;
   margin-bottom: 30px; }
 
 .Footer__text {
-  color: white; }
+  color: #34383B; }
 
 .Links {
   list-style: none;
@@ -316,7 +347,9 @@ footer {
 .Copyright {
   padding: 20px;
   margin-top: 40px;
-  background: #282b2d; }
+  border-top: 1px solid #ddd; }
+  .Copyright p {
+    color: #34383B; }
 
 @media screen and (max-width: 320px) {
   .Content {

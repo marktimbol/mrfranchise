@@ -1,9 +1,12 @@
+$krushOrange: #FAA31B;
+$krushRed: #761213;
+
 .Krush-burger {
 	background: url('/images/krush-burger/bg.JPG') no-repeat;
 	background-size: contain;
 	.Brand__logo, 
 	.Brand__images {
-		background: #FAA31B;
+		background: $krushOrange;
 	}
 
 	.Brand__hero {
@@ -11,14 +14,55 @@
 	}
 
 	.Brand__emoji {
-		background: #761213;
+		background: $krushRed;
 	}
 
 	.emoji {
-		color: #FAA31B;
+		color: $krushOrange;
 	}
 	
 	.About {
 		background: #F9F9F9;
+	}
+
+	.modal-header {
+		background: $krushRed;
+	}
+
+	.Download-container {
+		padding: 40px 0px;
+		background: $krushOrange;
+		border-top: 8px solid $krushRed;
+		border-bottom: 8px solid $krushRed;
+
+		.Section__title {
+			color: $krushRed;
+		}
+
+		ul {
+			list-style: none;
+			padding-left: 0;
+			li {
+				margin-right: 20px;
+			}
+		}
+	}
+
+	.Download {
+		display: block;
+		text-indent: -9999px;
+		background: url('/images/krush-burger/download.png') no-repeat;
+	}
+
+	.Download--google-play {
+		width: 197px;
+		height: 64px;
+		background-position: -2px -2px;
+	}
+
+	.Download--appstore {
+		width: 196px;
+		height: 66px;
+		background-position: -2px -70px;
 	}
 }

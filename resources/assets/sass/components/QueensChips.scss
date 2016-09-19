@@ -1,9 +1,13 @@
+$queensChipsGreen: #2A4634;
+$queensChipsYellow: #FCCE01;
+
 .Queens-chips {
 	background: url('/images/queens-chips/bg.jpg') no-repeat;
 	background-size: contain;
 	.Brand__logo, 
-	.Brand__images {
-		background: #2A4634;
+	.Brand__images,
+	.modal-header {
+		background: $queensChipsGreen;
 	}
 
 	.Brand__hero {
@@ -11,11 +15,11 @@
 	}
 
 	.Brand__emoji {
-		background: #FCCE01;
+		background: $queensChipsYellow;
 	}
 
 	.emoji {
-		color: #2A4634;
+		color: $queensChipsGreen;
 	}
 	
 	.About {

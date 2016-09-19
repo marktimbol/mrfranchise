@@ -84,6 +84,9 @@
 								<p>
 									Krush Burger is committed to providing a unique burger experience in a fun and lively atmosphere. We prepare our signatures sauces in-house daily, cook our fresh never-frozen Angus Beef to order and hand toast each freshly baked Brioche Bun.
 								</p>
+								<p>
+									Krush Burger, wholly owned by Krush Burger International LLC was founded in 2011 and is headquartered in Roseville, CA. 
+								</p>
 								<p>&nbsp;</p>
 								<h3 class="Section__title">Immediate Opportunities</h3>
 								<p>
@@ -125,7 +128,7 @@
 					</div>
 					<div class="modal-body">
 						<video id="brand-video" class="video-js" controls muted preload="auto" data-setup="{}">
-							<source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4'>
+							<source src="https://www.youtube.com/embed/EjJ77qejNV0" type='video/mp4'>
 							<p class="vjs-no-js">
 								To view this video please enable JavaScript, and consider upgrading to a web browser that
 								<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
@@ -141,6 +144,36 @@
 
 		@include('public.brands._inquiry')
 
+	</div>
+@endsection
+
+@section('content_after_container')
+	<div class="Download-container">
+		<div class="container">
+			<div class="Row Flex--center">
+				<div class="Column-6">
+					<h3 class="Section__title">Download our app</h3>
+
+					<ul class="Flex">
+						<li>
+							<a href="#" class="Download Download--appstore">
+								Available on the App Store
+							</a>
+						</li>	
+						
+						<li>
+							<a href="#" class="Download Download--google-play">
+								Android app on Google Play
+							</a>
+						</li>	
+					</ul>
+				</div>
+
+				<div class="Column-6 Flex Flex--end">
+					<a href="#" target="_blank" class="btn btn-lg btn-default">Visit website</a>
+				</div>
+			</div>
+		</div>
 	</div>
 @endsection
 

@@ -1,6 +1,8 @@
+$footerTextColor: #34383B;
+
 footer {
+	background: #F9F9F9;
 	padding: 40px 0px 0px;
-	background: #34383B;
 	.Footer__logo {
 		img {
 			margin: 0 auto;
@@ -12,21 +14,22 @@ footer {
 	}
 
 	a {
-		color: white;
+		color: $footerTextColor;
+		text-decoration: none;
 		&:hover {
-			color: white;
+			color: $footerTextColor;
 			text-decoration: underline;
 		}
 	}
 }
 
 .Footer__title {
-	color: white;
+	color: $footerTextColor;
 	margin-bottom: 30px;
 }
 
 .Footer__text {
-	color: white;
+	color: $footerTextColor;
 }
 
 .Links {
@@ -46,5 +49,8 @@ footer {
 .Copyright {
 	padding: 20px;
 	margin-top: 40px;
-	background: darken(#34383B, 5%);
+	border-top: 1px solid #ddd;
+	p {
+		color: $footerTextColor;
+	}
 }
