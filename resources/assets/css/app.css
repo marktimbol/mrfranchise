@@ -14,6 +14,9 @@ body {
   background: white;
   font-family: 'Raleway', sans-serif; }
 
+header {
+  padding: 20px 30px; }
+
 svg {
   width: 100%; }
 
@@ -49,6 +52,21 @@ footer {
     color: white;
     margin: 0; }
 
+.Subpage {
+  padding: 80px 0px; }
+
+.Subpage__title {
+  color: white;
+  margin: 0 0 10px 0; }
+
+.Subpage__subtitle {
+  margin: 0;
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 34px; }
+
 .Row {
   display: -webkit-box;
   display: flex; }
@@ -62,8 +80,8 @@ footer {
   flex: 0.75; }
 
 .Column-8 {
-  -webkit-box-flex: 0.6;
-  flex: 0.6; }
+  -webkit-box-flex: 0.67;
+  flex: 0.67; }
 
 .Column-6 {
   -webkit-box-flex: 0.5;
@@ -104,9 +122,65 @@ footer {
   -webkit-box-pack: center;
   justify-content: center; }
 
+.Flex--center-to-end {
+  -webkit-box-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  justify-content: flex-end; }
+
 .Space-between {
   -webkit-box-pack: justify;
   justify-content: space-between; }
+
+header nav {
+  -webkit-box-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between; }
+  header nav ul {
+    list-style: none;
+    padding-left: 0; }
+
+.nav__item {
+  margin: 0px 10px; }
+  .nav__item a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none; }
+    .nav__item a:hover {
+      text-decoration: underline; }
+
+.Card {
+  margin: 20px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px; }
+  .Card .Card__header {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+  .Card .Card__content {
+    padding: 10px 20px; }
+  .Card.Als-beef {
+    background: none; }
+    .Card.Als-beef .Card__header {
+      background: #FEF200; }
+  .Card.Queens-chips {
+    background: none; }
+    .Card.Queens-chips .Card__header {
+      background: #2A4634; }
+  .Card.Nancys-pizza {
+    background: none; }
+    .Card.Nancys-pizza .Card__header {
+      background: #231F20; }
+  .Card.Krush-burger {
+    background: none; }
+    .Card.Krush-burger .Card__header {
+      background: #FAA31B; }
+  .Card.Eyescream {
+    background: none; }
+    .Card.Eyescream .Card__header {
+      background: #EA5E5C; }
 
 .logo {
   width: 50px;
@@ -124,7 +198,7 @@ footer {
 
 .Brand__hero {
   width: 100%;
-  height: 55vh;
+  height: 85vh;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -179,9 +253,19 @@ footer {
   .How-it-works img {
     margin: 0 auto; }
 
+.Get-started {
+  padding: 40px 0px; }
+  .Get-started .Section__title {
+    margin-bottom: 0;
+    font-weight: 300; }
+  .Get-started .btn {
+    margin: 0 5px; }
+
 .Eyescream {
   background: url("/images/eyescream/bg.jpg") no-repeat;
   background-size: contain; }
+  .Eyescream header {
+    background: url("/images/header-shadow.png") repeat-x; }
   .Eyescream .Brand__logo,
   .Eyescream .Brand__images,
   .Eyescream .modal-header {
@@ -198,25 +282,37 @@ footer {
     margin-bottom: 0; }
   .Eyescream .Characters {
     margin-top: 40px; }
+  .Eyescream .Get-started {
+    background: #EA5E5C; }
+    .Eyescream .Get-started .Section__title {
+      color: white; }
 
 .Nancys-pizza {
   background: url("/images/nancys-pizza/bg.jpg") no-repeat;
   background-size: contain; }
+  .Nancys-pizza header {
+    background: url("/images/header-shadow.png") repeat-x; }
   .Nancys-pizza .Brand__logo,
   .Nancys-pizza .Brand__images {
     background: #231F20; }
   .Nancys-pizza .Brand__hero {
     background-image: url("/images/nancys-pizza/cover.jpg"); }
   .Nancys-pizza .Brand__emoji {
-    background: #EC1B23; }
+    background: #EB2126; }
   .Nancys-pizza .emoji {
     color: white; }
   .Nancys-pizza .About {
     background: #FAF8EB url("/images/nancys-pizza/about.png") right center no-repeat; }
+  .Nancys-pizza .Get-started {
+    background: #231F20; }
+    .Nancys-pizza .Get-started .Section__title {
+      color: white; }
 
 .Krush-burger {
   background: url("/images/krush-burger/bg.JPG") no-repeat;
   background-size: contain; }
+  .Krush-burger header {
+    background: url("/images/header-shadow.png") repeat-x; }
   .Krush-burger .Brand__logo,
   .Krush-burger .Brand__images {
     background: #FAA31B; }
@@ -258,6 +354,8 @@ footer {
 .Queens-chips {
   background: url("/images/queens-chips/bg.jpg") no-repeat;
   background-size: contain; }
+  .Queens-chips header {
+    background: url("/images/header-shadow.png") repeat-x; }
   .Queens-chips .Brand__logo,
   .Queens-chips .Brand__images,
   .Queens-chips .modal-header {
@@ -270,10 +368,18 @@ footer {
     color: #2A4634; }
   .Queens-chips .About {
     background: #FAF8EB url("/images/queens-chips/about.jpg") right bottom no-repeat; }
+  .Queens-chips .Get-started {
+    background: #2A4634; }
+    .Queens-chips .Get-started .Section__title {
+      color: white; }
 
 .Als-beef {
   background: url("/images/als-beef/bg.jpg") no-repeat;
   background-size: contain; }
+  .Als-beef header {
+    background: url("/images/header-shadow.png") repeat-x; }
+    .Als-beef header .nav__item a {
+      color: black; }
   .Als-beef .Brand__logo,
   .Als-beef .Brand__images,
   .Als-beef .Brand__emoji {
@@ -283,7 +389,11 @@ footer {
   .Als-beef .emoji {
     color: black; }
   .Als-beef .About {
-    background: #FAF8EB url("/images/als-beef/about.png") right center no-repeat; }
+    background: #F9F9F9 url("/images/als-beef/about.png") right center no-repeat; }
+  .Als-beef .Get-started {
+    background: #FEF200; }
+    .Als-beef .Get-started .Section__title {
+      color: black; }
 
 .play-video-icon {
   width: 80px;
@@ -470,5 +580,16 @@ footer {
     font-weight: normal;
     position: absolute;
     text-shadow: none; }
+
+.navbar {
+  border: 0;
+  margin-bottom: 0; }
+  .navbar li > a {
+    color: white; }
+
+header {
+  background-color: #69707a;
+  background-image: -webkit-linear-gradient(309deg, #495a67 0%, #69707a 71%, #6e768e 100%);
+  background-image: linear-gradient(141deg, #495a67 0%, #69707a 71%, #6e768e 100%); }
 
 /*# sourceMappingURL=app.css.map */

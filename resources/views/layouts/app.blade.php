@@ -22,8 +22,11 @@
     </script>
 </head>
 <body class="@yield('bodyClass')">
-    @include('layouts._nav')
-
+    <header>
+        @include('layouts._nav')
+        @yield('subpage__header')
+    </header>
+    
     <div class="Content container">
         @yield('content')
     </div>

@@ -1,0 +1,46 @@
+.Cards {
+
+}
+
+.Card {
+	margin: 20px 10px;;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	.Card__header {
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+	.Card__content {
+		padding: 10px 20px;
+	}
+	&.Als-beef {
+		background: none;
+		.Card__header {
+			background: #FEF200;
+		}
+	}
+	&.Queens-chips {
+		background: none;
+		.Card__header {
+			background: #2A4634;
+		}
+	}
+	&.Nancys-pizza {
+		background: none;
+		.Card__header {
+			background: #231F20;
+		}
+	}
+	&.Krush-burger {
+		background: none;
+		.Card__header {
+			background: #FAA31B;
+		}
+	}
+	&.Eyescream {
+		background: none;
+		.Card__header {
+			background: #EA5E5C;
+		}
+	}
+}

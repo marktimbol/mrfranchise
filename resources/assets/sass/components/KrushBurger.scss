@@ -4,6 +4,9 @@ $krushRed: #761213;
 .Krush-burger {
 	background: url('/images/krush-burger/bg.JPG') no-repeat;
 	background-size: contain;
+	header {
+		background: url('/images/header-shadow.png') repeat-x;
+	}
 	.Brand__logo, 
 	.Brand__images {
 		background: $krushOrange;

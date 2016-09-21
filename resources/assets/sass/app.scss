@@ -25,6 +25,10 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
+header {
+	padding: 20px 30px;
+}
+
 svg {
 	width: 100%;
 }
@@ -68,7 +72,28 @@ footer {
 	}
 }
 
+.Subpage {
+    padding: 80px 0px;
+    // margin-bottom: 40px;
+}
+
+.Subpage__title {
+	color: white;
+	margin: 0 0 10px 0;
+}
+
+.Subpage__subtitle {
+	margin: 0;
+	color: white;
+	font-size: 24px;
+	font-weight: 300;
+	text-align: center;
+	line-height: 34px;
+}
+
 @import 'components/Grid';
+@import 'components/Nav';
+@import 'components/Card';
 @import 'components/Brand';
 @import 'components/Eyescream';
 @import 'components/NancysPizza';

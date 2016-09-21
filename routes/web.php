@@ -26,6 +26,11 @@ Route::get('/add', function() {
 
 
 Route::get('our-brands', 'BrandsController@index');
+Route::get('our-process', 'PagesController@ourProcess');
+Route::get('just-sold', 'PagesController@justSold');
+Route::get('about', 'PagesController@about');
+Route::get('contact', 'PagesController@contact');
+Route::get('faq', 'PagesController@faq');
 Route::get('/brands/queens-chips', 'PagesController@queensChips');
 Route::get('/brands/als-beef', 'PagesController@alsBeef');
 Route::get('/brands/krush-burger', 'PagesController@krushBurger');

@@ -1,9 +1,15 @@
+$nancyBlack: #231F20;
+$nancyRed: #EB2126;
+
 .Nancys-pizza {
 	background: url('/images/nancys-pizza/bg.jpg') no-repeat;
 	background-size: contain;
+	header {
+		background: url('/images/header-shadow.png') repeat-x;
+	}
 	.Brand__logo, 
 	.Brand__images {
-		background: #231F20;
+		background: $nancyBlack;
 	}
 
 	.Brand__hero {
@@ -11,7 +17,7 @@
 	}
 
 	.Brand__emoji {
-		background: #EC1B23;
+		background: $nancyRed;
 	}
 
 	.emoji {
@@ -20,5 +26,12 @@
 	
 	.About {
 		background: #FAF8EB url('/images/nancys-pizza/about.png') right center no-repeat;
+	}
+
+	.Get-started {
+		background: $nancyBlack;
+		.Section__title {
+			color: white;
+		}
 	}
 }

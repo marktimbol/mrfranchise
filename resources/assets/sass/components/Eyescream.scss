@@ -4,6 +4,9 @@ $eyescreamYellow: #FADA55;
 .Eyescream {
 	background: url('/images/eyescream/bg.jpg') no-repeat;
 	background-size: contain;
+	header {
+		background: url('/images/header-shadow.png') repeat-x;
+	}
 	.Brand__logo, 
 	.Brand__images,
 	.modal-header {
@@ -32,5 +35,12 @@ $eyescreamYellow: #FADA55;
 
 	.Characters {
 		margin-top: 40px;
+	}
+
+	.Get-started {
+		background: $eyescreamPink;
+		.Section__title {
+			color: white;
+		}
 	}
 }

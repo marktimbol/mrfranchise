@@ -3,7 +3,7 @@
 @section('pageTitle', "Queen's Chips")
 
 @section('header_styles')
-	<link rel="stylesheet" href="{{ elixir('css/brand.css') }}" />
+	<link rel="stylesheet" href="/css/brand.css" />
 @endsection
 
 @section('bodyClass', 'Queens-chips')
@@ -16,11 +16,7 @@
 					{!! file_get_contents(public_path() . '/images/queens-chips/logo.svg') !!}
 				</div>
 
-				<div class="Brand__inquiry Flex Flex--center Flex-1 Flex--column">
-					<button type="button" class="btn btn-default" data-toggle="modal" data-target="#FormInquiry">
-						Inquire now
-					</button>
-				</div>
+				@include('public.brands._inquiry-button')
 			</div>
 
 			<div class="Brand__hero Flex Flex--center Column-9">
@@ -79,7 +75,7 @@
 					<div class="About">
 						<div class="row">
 							<div class="col-md-7">
-								<h3 class="Section__title">About Queen's Chips</h3>
+								<h1 class="Section__title">About Queen's Chips</h1>
 								<p>
 									Amsterdam is a city of tulips, windmills, museums, bicycles.
 									A city that everyone who visits the witch, with its atmosphere so fascinating.
@@ -140,11 +136,15 @@
 			</div>
 		</div>
 
-		@include('public.brands._inquiry')
+		@include('public.brands._inquiry-form')
 
 	</div>
 @endsection
 
+@section('content_after_container')
+	@include('public.brands._get-started')
+@endsection
+
 @section('footer_scripts')
-	<script src="{{ elixir('js/brand.js') }}"></script>
+	<script src="/js/brand.js"></script>
 @endsection

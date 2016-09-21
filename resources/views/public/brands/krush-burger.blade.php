@@ -3,7 +3,7 @@
 @section('pageTitle', "Krush Burger")
 
 @section('header_styles')
-	<link rel="stylesheet" href="{{ elixir('css/brand.css') }}" />
+	<link rel="stylesheet" href="/css/brand.css" />
 @endsection
 
 @section('bodyClass', 'Krush-burger')
@@ -16,11 +16,7 @@
 					{!! file_get_contents(public_path() . '/images/krush-burger/logo.svg') !!}
 				</div>
 
-				<div class="Brand__inquiry Flex Flex--center Flex-1 Flex--column">
-					<button type="button" class="btn btn-default" data-toggle="modal" data-target="#FormInquiry">
-						Inquire now
-					</button>
-				</div>
+				@include('public.brands._inquiry-button')
 			</div>
 
 			<div class="Brand__hero Flex Flex--center Column-9">
@@ -80,7 +76,7 @@
 					<div class="About">
 						<div class="row">
 							<div class="col-md-7">
-								<h3 class="Section__title">About Krush Burger</h3>
+								<h1 class="Section__title">About Krush Burger</h1>
 								<p>
 									Krush Burger is committed to providing a unique burger experience in a fun and lively atmosphere. We prepare our signatures sauces in-house daily, cook our fresh never-frozen Angus Beef to order and hand toast each freshly baked Brioche Bun.
 								</p>
@@ -142,7 +138,7 @@
 			</div>
 		</div>
 
-		@include('public.brands._inquiry')
+		@include('public.brands._inquiry-form')
 
 	</div>
 @endsection
@@ -150,9 +146,9 @@
 @section('content_after_container')
 	<div class="Download-container">
 		<div class="container">
-			<div class="Row Flex--center">
+			<div class="Row">
 				<div class="Column-6">
-					<h3 class="Section__title">Download our app</h3>
+					<h3 class="Section__title">Download our App</h3>
 
 					<ul class="Flex">
 						<li>
@@ -169,14 +165,21 @@
 					</ul>
 				</div>
 
-				<div class="Column-6 Flex Flex--end">
-					<a href="#" target="_blank" class="btn btn-lg btn-default">Visit website</a>
-				</div>
+{{-- 				<div class="Column-6 Flex Flex--column Flex--end">
+					<h3 class="Section__title">Ready to get started? Get in touch</h3>
+					<div>
+						<button type="button" class="btn btn-lg btn-default" data-toggle="modal" data-target="#FormInquiry">
+							Inquire Now
+						</button>
+						<a href="/contact" class="btn btn-lg btn-default">Contact Us</a>
+						<a href="#" class="btn btn-lg btn-default">Visit Website</a>
+					</div>
+				</div> --}}
 			</div>
 		</div>
 	</div>
 @endsection
 
 @section('footer_scripts')
-	<script src="{{ elixir('js/brand.js') }}"></script>
+	<script src="/js/brand.js"></script>
 @endsection

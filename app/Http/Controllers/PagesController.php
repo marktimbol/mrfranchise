@@ -13,6 +13,31 @@ class PagesController extends Controller
     	return view('public.home');
     }
 
+    public function ourProcess()
+    {
+        return view('public.our-process');
+    }
+
+    public function justSold()
+    {
+        return view('public.just-sold');
+    }
+
+    public function about()
+    {
+        return view('public.about');
+    }
+
+    public function contact()
+    {
+        return view('public.contact');
+    }
+
+    public function faq()
+    {
+        return view('public.faq');
+    }
+
     public function queensChips()
     {
     	return view('public.brands.queens-chips');

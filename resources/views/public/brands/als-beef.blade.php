@@ -3,7 +3,7 @@
 @section('pageTitle', "Al's Beef")
 
 @section('header_styles')
-	<link rel="stylesheet" href="{{ elixir('css/brand.css') }}" />
+	<link rel="stylesheet" href="/css/brand.css" />
 @endsection
 
 @section('bodyClass', 'Als-beef')
@@ -16,11 +16,7 @@
 					{!! file_get_contents(public_path() . '/images/als-beef/logo.svg') !!}
 				</div>
 
-				<div class="Brand__inquiry Flex Flex--center Flex-1 Flex--column">
-					<button type="button" class="btn btn-default" data-toggle="modal" data-target="#FormInquiry">
-						Inquire now
-					</button>
-				</div>
+				@include('public.brands._inquiry-button')
 			</div>
 
 			<div class="Brand__hero Flex Flex--center Column-9">
@@ -80,7 +76,7 @@
 					<div class="About">
 						<div class="row">
 							<div class="col-md-7">
-								<h3 class="Section__title">About Al's Beef</h3>
+								<h1 class="Section__title">About Al's Beef</h1>
 								<p>
 									Al's beef is dry roasted in a secret recipe blend of 100% pure spices and natural juices. Our beef is pure. The Au Jus or 'Gravy' as Al calls it, gives our beef its unmistakable flavor.  We will add as little or as much gravy to your sandwich as you want. But most Al's connoisseurs prefer their beef sandwich wet or dipped, right into the gravy, and then add sweet and hot peppers.
 								</p>
@@ -138,10 +134,14 @@
 			</div>
 		</div>
 
-		@include('public.brands._inquiry')
+		@include('public.brands._inquiry-form')
 	</div>
 @endsection
 
+@section('content_after_container')
+	@include('public.brands._get-started')
+@endsection
+
 @section('footer_scripts')
-	<script src="{{ elixir('js/brand.js') }}"></script>
+	<script src="/js/brand.js"></script>
 @endsection

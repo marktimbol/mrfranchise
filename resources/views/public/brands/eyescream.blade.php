@@ -3,7 +3,7 @@
 @section('pageTitle', "Eyescream & Friends")
 
 @section('header_styles')
-	<link rel="stylesheet" href="{{ elixir('css/brand.css') }}" />
+	<link rel="stylesheet" href="/css/brand.css" />
 @endsection
 
 @section('bodyClass', 'Eyescream')
@@ -16,11 +16,7 @@
 					{!! file_get_contents(public_path() . '/images/eyescream/logo.svg') !!}
 				</div>
 
-				<div class="Brand__inquiry Flex Flex--center Flex-1 Flex--column">
-					<button type="button" class="btn btn-default" data-toggle="modal" data-target="#FormInquiry">
-						Inquire now
-					</button>
-				</div>
+				@include('public.brands._inquiry-button')
 			</div>
 
 			<div class="Brand__hero Flex Flex--center Column-9">
@@ -83,7 +79,7 @@
 					<div class="About">
 						<div class="row">
 							<div class="col-md-7">
-								<h3 class="Section__title">Why Eyescream &amp; Friends?</h3>
+								<h1 class="Section__title">Why Eyescream &amp; Friends?</h1>
 								<p>
 									Be part of an exciting and iconic brand.
 								</p>
@@ -143,7 +139,7 @@
 			</div>
 		</div>
 
-		@include('public.brands._inquiry')
+		@include('public.brands._inquiry-form')
 
 	</div>
 @endsection
@@ -178,8 +174,10 @@
 			</div>
 		</div>
 	</div>
+
+	@include('public.brands._get-started')
 @endsection
 
 @section('footer_scripts')
-	<script src="{{ elixir('js/brand.js') }}"></script>
+	<script src="/js/brand.js"></script>
 @endsection

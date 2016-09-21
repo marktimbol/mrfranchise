@@ -4,6 +4,9 @@ $queensChipsYellow: #FCCE01;
 .Queens-chips {
 	background: url('/images/queens-chips/bg.jpg') no-repeat;
 	background-size: contain;
+	header {
+		background: url('/images/header-shadow.png') repeat-x;
+	}
 	.Brand__logo, 
 	.Brand__images,
 	.modal-header {
@@ -24,5 +27,12 @@ $queensChipsYellow: #FCCE01;
 	
 	.About {
 		background: #FAF8EB url('/images/queens-chips/about.jpg') right bottom no-repeat;
+	}
+
+	.Get-started {
+		background: $queensChipsGreen;
+		.Section__title {
+			color: white;
+		}
 	}
 }

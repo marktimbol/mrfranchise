@@ -58,13 +58,14 @@ elixir(mix => {
         'brand/video.js',
       ], 'public/js/brand.js')
 
-      .copy('bower_components/bootstrap/dist/fonts', 'public/build/css/fonts')
-      .copy('bower_components/flexslider/fonts', 'public/build/css/fonts')
+      .copy('bower_components/bootstrap/dist/fonts', 'public/css/fonts')
+      .copy('bower_components/flexslider/fonts', 'public/css/fonts');
        
-       .version([
-       		'public/css/app.css',
-          'public/js/app.js',
-          'public/css/brand.css',
-       		'public/js/brand.js',
-       ]);
+       // https://github.com/laravel/elixir/issues/253
+       // .version([
+       // 		'public/css/app.css',
+       //    'public/js/app.js',
+       //    'public/css/brand.css',
+       // 		'public/js/brand.js',
+       // ]);
 });
