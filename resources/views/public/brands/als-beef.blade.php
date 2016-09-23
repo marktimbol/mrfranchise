@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="/css/brand.css" />
 @endsection
 
-@section('bodyClass', 'Als-beef')
+@section('bodyClass', 'Als-beef Single-brand')
 
 @section('content')
 	<div class="Brand">

@@ -4,6 +4,7 @@ header {
 	nav {
 		align-items: center;
 		justify-content: space-between;
+		flex-direction: row-reverse;
 		ul {
 			list-style: none;
 			padding-left: 0;

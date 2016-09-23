@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('pageTitle', 'Our Brands')
+
 @section('subpage__header')
 	<div class="Subpage">
 		<div class="container Flex Flex--column Flex--center">			

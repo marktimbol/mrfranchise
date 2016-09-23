@@ -27,6 +27,7 @@ body {
 
 header {
 	padding: 20px 30px;
+	margin-bottom: 40px;
 }
 
 svg {
@@ -41,6 +42,7 @@ svg {
 	margin: 0;
 	color: white;
 	font-size: 30px;
+	font-weight: 300;
 	margin-bottom: 20px;
 }
 
@@ -58,20 +60,6 @@ svg {
 	background-image: url('/images/home-banner.jpg');
 }
 
-.has-vertical-scroll {
-    height: 100%;
-    overflow-y: scroll;
-}
-
-footer {
-	padding: 2rem;
-	background: #333;
-	p {
-		color: white;
-		margin: 0;
-	}
-}
-
 .Subpage {
     padding: 80px 0px;
     // margin-bottom: 40px;
@@ -79,6 +67,7 @@ footer {
 
 .Subpage__title {
 	color: white;
+	font-weight: 300;
 	margin: 0 0 10px 0;
 }
 
@@ -86,7 +75,7 @@ footer {
 	margin: 0;
 	color: white;
 	font-size: 24px;
-	font-weight: 300;
+	font-weight: 200;
 	text-align: center;
 	line-height: 34px;
 }
@@ -95,12 +84,14 @@ footer {
 @import 'components/Nav';
 @import 'components/Card';
 @import 'components/Brand';
+@import 'components/Team';
+@import 'components/Pages';
+@import 'components/Footer';
 @import 'components/Eyescream';
 @import 'components/NancysPizza';
 @import 'components/KrushBurger';
 @import 'components/QueensChips';
 @import 'components/AlsBeef';
 @import 'components/PlayButton';
-@import 'components/Footer';
 @import 'components/MediaQueries';
 @import 'components/Overwrite';

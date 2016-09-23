@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="/css/brand.css" />
 @endsection
 
-@section('bodyClass', 'Queens-chips')
+@section('bodyClass', 'Queens-chips Single-brand')
 
 @section('content')
 	<div class="Brand">

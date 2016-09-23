@@ -5,10 +5,8 @@ $alsbeefYellow: #FEF200;
 	background-size: contain;
 	header {
 		background: url('/images/header-shadow.png') repeat-x;
-		.nav__item {
-			a {
-				color: black;
-			}
+		.nav__item a {
+			color: white;
 		}
 	}
 	.Brand__logo, 
@@ -26,7 +24,7 @@ $alsbeefYellow: #FEF200;
 	}
 	
 	.About {
-		background: #F9F9F9 url('/images/als-beef/about.png') right center no-repeat;	
+		background: #F9F9F9;	
 	}
 
 	.Get-started {

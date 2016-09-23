@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="/css/brand.css" />
 @endsection
 
-@section('bodyClass', 'Nancys-pizza')
+@section('bodyClass', 'Nancys-pizza Single-brand')
 
 @section('content')
 	<div class="Brand">

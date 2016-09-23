@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="/css/brand.css" />
 @endsection
 
-@section('bodyClass', 'Eyescream')
+@section('bodyClass', 'Eyescream Single-brand')
 
 @section('content')
 	<div class="Brand">
@@ -150,27 +150,26 @@
 			<div class="Column-12">
 				<h3 class="Section__title text-center">Okay, but how it works?</h3>
 			</div>
-			<div class="Row Steps">
-				<div class="Column-3 Step">
+			<div class="Row">
+				<div class="Column-3">
 					<h4 class="Step__title">1. Pick your tray</h4>
 					<img src="/images/eyescream/pick-your-tray.png" alt="Pick your tray" title="Pick your tray" class="img-responsive" />
 				</div>
 
-				<div class="Column-3 Step">
+				<div class="Column-3">
 					<h4 class="Step__title">2. Order your favourite Flavour</h4>
 					<img src="/images/eyescream/order-your-favourite-flavour.jpg" alt="Order your favourite Flavour" title="Order your favourite Flavour" class="img-responsive" />
 				</div>
 
-				<div class="Column-3 Step">
+				<div class="Column-3">
 					<h4 class="Step__title">3. Grab two toppings</h4>
 					<img src="/images/eyescream/grab-two-toppings.jpg" alt="Grab two toppings" title="Grab two toppings" class="img-responsive" />
 				</div>
 
-				<div class="Column-3 Step">
+				<div class="Column-3">
 					<h4 class="Step__title">4. Enjoy</h4>
 					<img src="/images/eyescream/how-it-works-result.png" alt="Enjoy" title="Enjoy" class="img-responsive" />
 				</div>
-
 			</div>
 		</div>
 	</div>

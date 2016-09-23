@@ -15,7 +15,8 @@ body {
   font-family: 'Raleway', sans-serif; }
 
 header {
-  padding: 20px 30px; }
+  padding: 20px 30px;
+  margin-bottom: 40px; }
 
 svg {
   width: 100%; }
@@ -27,6 +28,7 @@ svg {
   margin: 0;
   color: white;
   font-size: 30px;
+  font-weight: 300;
   margin-bottom: 20px; }
 
 .emoji {
@@ -41,29 +43,19 @@ svg {
   background-position: top center;
   background-image: url("/images/home-banner.jpg"); }
 
-.has-vertical-scroll {
-  height: 100%;
-  overflow-y: scroll; }
-
-footer {
-  padding: 2rem;
-  background: #333; }
-  footer p {
-    color: white;
-    margin: 0; }
-
 .Subpage {
   padding: 80px 0px; }
 
 .Subpage__title {
   color: white;
+  font-weight: 300;
   margin: 0 0 10px 0; }
 
 .Subpage__subtitle {
   margin: 0;
   color: white;
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 200;
   text-align: center;
   line-height: 34px; }
 
@@ -138,7 +130,10 @@ header nav {
   -ms-grid-row-align: center;
   align-items: center;
   -webkit-box-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  flex-direction: row-reverse; }
   header nav ul {
     list-style: none;
     padding-left: 0; }
@@ -161,6 +156,8 @@ header nav {
     border-top-right-radius: 5px; }
   .Card .Card__content {
     padding: 10px 20px; }
+  .Card .Card__title {
+    font-weight: 300; }
   .Card.Als-beef {
     background: none; }
     .Card.Als-beef .Card__header {
@@ -192,7 +189,7 @@ header nav {
 
 .Brand__inquiry {
   color: #333;
-  background: #ddd; }
+  background: #F9F9F9; }
   .Brand__inquiry .Section__title {
     color: #333; }
 
@@ -261,11 +258,110 @@ header nav {
   .Get-started .btn {
     margin: 0 5px; }
 
+.Teams {
+  list-style: none;
+  padding-left: 0;
+  display: -webkit-box;
+  display: flex;
+  margin: 0 0 40px 0; }
+
+.Team {
+  margin: 0 20px; }
+  .Team img {
+    border-radius: 50%; }
+
+.Single-brand header {
+  margin-bottom: 0; }
+
+.Contact-us .Section__title {
+  color: #333; }
+
+.Contact-us .Contact--left {
+  margin-right: 20px; }
+
+.Contact-us .Contact--right {
+  margin-left: 20px; }
+
+.Our-process .Section__title {
+  color: #333; }
+
+.Our-process .Steps {
+  padding-left: 0;
+  list-style: none;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between; }
+
+.Our-process .Step {
+  -webkit-box-flex: 0.25;
+  flex: 0.25;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  min-height: 120px;
+  position: relative;
+  background-color: #42afe3;
+  background-image: -webkit-linear-gradient(309deg, #13bfdf 0%, #42afe3 71%, #53a1eb 100%);
+  background-image: linear-gradient(141deg, #13bfdf 0%, #42afe3 71%, #53a1eb 100%); }
+
+.Our-process .Step__count {
+  color: #333;
+  top: -15px;
+  left: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  text-transform: uppercase; }
+
+.Our-process .Step__title {
+  color: white;
+  text-align: center;
+  line-height: 24px; }
+
+footer {
+  background: #F9F9F9;
+  padding: 40px 0px 0px; }
+  footer .Footer__logo img {
+    margin: 0 auto; }
+  footer li {
+    line-height: 24px; }
+  footer a {
+    color: #34383B;
+    text-decoration: none; }
+    footer a:hover {
+      color: #34383B;
+      text-decoration: underline; }
+
+.Footer__title {
+  color: #34383B;
+  margin-bottom: 30px; }
+
+.Footer__text {
+  color: #34383B; }
+
+.Links {
+  list-style: none;
+  padding-left: 0;
+  text-align: right; }
+
+.Follow_us {
+  list-style: none;
+  padding-left: 0; }
+  .Follow_us li {
+    margin: 0 20px; }
+
+.Copyright {
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 1px solid #ddd; }
+  .Copyright p {
+    color: #34383B; }
+
 .Eyescream {
   background: url("/images/eyescream/bg.jpg") no-repeat;
   background-size: contain; }
   .Eyescream header {
-    background: url("/images/header-shadow.png") repeat-x; }
+    background: none; }
   .Eyescream .Brand__logo,
   .Eyescream .Brand__images,
   .Eyescream .modal-header {
@@ -302,7 +398,7 @@ header nav {
   .Nancys-pizza .emoji {
     color: white; }
   .Nancys-pizza .About {
-    background: #FAF8EB url("/images/nancys-pizza/about.png") right center no-repeat; }
+    background: #F9F9F9; }
   .Nancys-pizza .Get-started {
     background: #231F20; }
     .Nancys-pizza .Get-started .Section__title {
@@ -379,7 +475,7 @@ header nav {
   .Als-beef header {
     background: url("/images/header-shadow.png") repeat-x; }
     .Als-beef header .nav__item a {
-      color: black; }
+      color: white; }
   .Als-beef .Brand__logo,
   .Als-beef .Brand__images,
   .Als-beef .Brand__emoji {
@@ -389,7 +485,7 @@ header nav {
   .Als-beef .emoji {
     color: black; }
   .Als-beef .About {
-    background: #F9F9F9 url("/images/als-beef/about.png") right center no-repeat; }
+    background: #F9F9F9; }
   .Als-beef .Get-started {
     background: #FEF200; }
     .Als-beef .Get-started .Section__title {
@@ -421,45 +517,6 @@ header nav {
 @keyframes shadowPulse {
   to {
     box-shadow: 0 0 0 45px rgba(255, 255, 255, 0); } }
-
-footer {
-  background: #F9F9F9;
-  padding: 40px 0px 0px; }
-  footer .Footer__logo img {
-    margin: 0 auto; }
-  footer li {
-    line-height: 24px; }
-  footer a {
-    color: #34383B;
-    text-decoration: none; }
-    footer a:hover {
-      color: #34383B;
-      text-decoration: underline; }
-
-.Footer__title {
-  color: #34383B;
-  margin-bottom: 30px; }
-
-.Footer__text {
-  color: #34383B; }
-
-.Links {
-  list-style: none;
-  padding-left: 0;
-  text-align: right; }
-
-.Follow_us {
-  list-style: none;
-  padding-left: 0; }
-  .Follow_us li {
-    margin: 0 20px; }
-
-.Copyright {
-  padding: 20px;
-  margin-top: 40px;
-  border-top: 1px solid #ddd; }
-  .Copyright p {
-    color: #34383B; }
 
 @media screen and (max-width: 320px) {
   .Content {

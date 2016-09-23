@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="/css/brand.css" />
 @endsection
 
-@section('bodyClass', 'Krush-burger')
+@section('bodyClass', 'Krush-burger Single-brand')
 
 @section('content')
 	<div class="Brand">

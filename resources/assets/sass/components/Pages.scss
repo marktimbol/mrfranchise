@@ -1,0 +1,60 @@
+.Single-brand {
+	header {
+		margin-bottom: 0;
+	}
+}
+
+.Contact-us {
+	.Section__title {
+		color: #333;
+	}
+
+	.Contact--left {
+		margin-right: 20px;
+	}
+
+	.Contact--right {
+		margin-left: 20px;
+	}
+}
+
+.Our-process {
+	.Section__title {
+		color: #333;
+	}
+	
+	.Steps {
+		padding-left: 0;
+		list-style: none;
+		flex-wrap: wrap;
+	    justify-content: space-between;
+	}
+
+	.Step {
+		flex: 0.25;
+	    padding: 10px;
+	    margin: 10px;
+	    border-radius: 5px;
+	    min-height: 120px;
+	    position: relative;
+		background-color: #42afe3;
+	    background-image: -webkit-linear-gradient(309deg, #13bfdf 0%, #42afe3 71%, #53a1eb 100%);
+        background-image: linear-gradient(141deg, #13bfdf 0%, #42afe3 71%, #53a1eb 100%);
+	}
+
+	.Step__count {
+	    color: #333;
+	    top: -15px;
+	    left: 10px;
+	    font-size: 16px;
+	    font-weight: bold;
+	    position: absolute;
+	    text-transform: uppercase;
+	}
+
+	.Step__title {
+		color: white;
+		text-align: center;
+		line-height: 24px;
+	}
+}

@@ -15,6 +15,8 @@ const bowersPath = '../../../bower_components/';
 elixir(mix => {
     mix.sass('app.scss', 'resources/assets/css/app.css')
     	.styles([
+        bowersPath + 'raleway/raleway.css',
+        bowersPath + 'fontawesome/css/font-awesome.css',
         bowersPath + 'bootstrap/dist/css/bootstrap.css',
     		'app.css'
     	], 'public/css/app.css')
@@ -59,7 +61,9 @@ elixir(mix => {
       ], 'public/js/brand.js')
 
       .copy('bower_components/bootstrap/dist/fonts', 'public/css/fonts')
-      .copy('bower_components/flexslider/fonts', 'public/css/fonts');
+      .copy('bower_components/flexslider/fonts', 'public/css/fonts')
+      .copy('bower_components/fontawesome/fonts', 'public/fonts')
+      .copy('bower_components/raleway/fonts', 'public/css/fonts');
        
        // https://github.com/laravel/elixir/issues/253
        // .version([
