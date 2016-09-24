@@ -46,9 +46,14 @@ elixir(mix => {
         'carousel.js'
       ], 'resources/assets/js/brand/carousel.js')
 
+      .styles([
+        bowersPath + 'jvectormap/jquery-jvectormap.css',
+      ], 'public/css/map.css')
+
       .scripts([
+          bowersPath + 'jvectormap/jquery.jvectormap.min.js',
           'map.js',
-      ], 'resources/assets/js/brand/map.js')
+      ], 'public/js/map.js')
 
       .styles([
         'brand/video.css',

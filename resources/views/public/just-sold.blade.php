@@ -2,6 +2,10 @@
 
 @section('pageTitle', 'Franchise History')
 
+@section('header_styles')
+	<link rel="stylesheet" href="/css/map.css" />
+@endsection
+
 @section('subpage__header')
 	<div class="Subpage">
 		<div class="container Flex Flex--column Flex--center">			
@@ -14,5 +18,9 @@
 @endsection
 
 @section('content')
-	
+	<div id="world-map-markers" style="width: 600px; height: 400px"></div>
+@endsection
+
+@section('footer_scripts')
+	<script src="/js/map.js"></script>
 @endsection
