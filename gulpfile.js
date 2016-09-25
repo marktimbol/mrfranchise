@@ -24,6 +24,7 @@ elixir(mix => {
       .scripts([
         bowersPath + 'jquery/dist/jquery.js',
         bowersPath + 'bootstrap/dist/js/bootstrap.js',
+        'modernizr.custom.js',
         'app.js'
       ], 'public/js/app.js')
 
@@ -47,11 +48,12 @@ elixir(mix => {
       ], 'resources/assets/js/brand/carousel.js')
 
       .styles([
-        bowersPath + 'jvectormap/jquery-jvectormap.css',
+        'jquery-jvectormap.css',
       ], 'public/css/map.css')
 
       .scripts([
-          bowersPath + 'jvectormap/jquery.jvectormap.min.js',
+          'jquery-jvectormap.min.js',
+          'jquery-jvectormap-world-mill.js',
           'map.js',
       ], 'public/js/map.js')
 
