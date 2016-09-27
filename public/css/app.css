@@ -9368,6 +9368,25 @@ header nav {
 .Faq p {
   margin-bottom: 40px; }
 
+.Franchise-history .Franchises {
+  margin-top: 40px; }
+
+.Franchise-history .Franchise {
+  display: -webkit-box;
+  display: flex; }
+
+.Franchise-history .Franchise__marker {
+  margin-right: 10px; }
+
+.Franchise-history .Section__title {
+  color: red;
+  font-size: 20px;
+  margin: 0; }
+
+.Franchise-history .Franchise--name {
+  font-weight: bold;
+  font-size: 18px; }
+
 footer {
   background: #F9F9F9;
   padding: 40px 0px 0px; }

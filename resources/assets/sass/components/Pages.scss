@@ -64,3 +64,28 @@
 		margin-bottom: 40px;
 	}
 }
+
+.Franchise-history {
+	.Franchises {
+		margin-top: 40px;
+	}
+	
+	.Franchise {
+		display: flex;
+	}
+
+	.Franchise__marker {
+		margin-right: 10px;
+	}
+
+	.Section__title {
+		color: red;
+		font-size: 20px;
+		margin: 0;
+	}
+
+	.Franchise--name {
+		font-weight: bold;
+		font-size: 18px;
+	}
+}
