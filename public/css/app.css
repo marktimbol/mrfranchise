@@ -9487,7 +9487,7 @@ footer {
 
 .Eyescream {
   background: url("/images/eyescream/bg.jpg") no-repeat;
-  background-size: contain; }
+  background-size: cover; }
   .Eyescream header {
     background: none; }
   .Eyescream .Brand__logo,
@@ -9513,7 +9513,7 @@ footer {
 
 .Nancys-pizza {
   background: url("/images/nancys-pizza/bg.jpg") no-repeat;
-  background-size: contain; }
+  background-size: cover; }
   .Nancys-pizza header {
     background: url("/images/header-shadow.png") repeat-x; }
   .Nancys-pizza .Brand__logo,
@@ -9534,7 +9534,7 @@ footer {
 
 .Krush-burger {
   background: url("/images/krush-burger/bg.JPG") no-repeat;
-  background-size: contain; }
+  background-size: cover; }
   .Krush-burger header {
     background: url("/images/header-shadow.png") repeat-x; }
   .Krush-burger .Brand__logo,
@@ -9577,7 +9577,7 @@ footer {
 
 .Queens-chips {
   background: url("/images/queens-chips/bg.jpg") no-repeat;
-  background-size: contain; }
+  background-size: cover; }
   .Queens-chips header {
     background: url("/images/header-shadow.png") repeat-x; }
   .Queens-chips .Brand__logo,
@@ -9599,7 +9599,7 @@ footer {
 
 .Als-beef {
   background: url("/images/als-beef/bg.jpg") no-repeat;
-  background-size: contain; }
+  background-size: cover; }
   .Als-beef header {
     background: url("/images/header-shadow.png") repeat-x; }
     .Als-beef header .nav__item a {
