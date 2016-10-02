@@ -9411,7 +9411,6 @@ html {
     font-weight: 400;
     text-transform: uppercase; }
   .Home .Home__content {
-    height: 100%;
     display: -webkit-box;
     display: flex;
     -webkit-box-align: start;
