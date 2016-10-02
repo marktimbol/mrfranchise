@@ -9387,6 +9387,66 @@ header nav {
   font-weight: bold;
   font-size: 18px; }
 
+html {
+  height: 100%; }
+
+.Home {
+  height: 100%;
+  background: #F0EFEC; }
+  .Home header {
+    z-index: 9999;
+    position: relative;
+    background: none;
+    margin-bottom: 0;
+    background-color: transparent; }
+  .Home nav ul {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center; }
+  .Home .nav__item--logo {
+    margin-right: 20px; }
+  .Home .nav__item a {
+    color: #a8a39d;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .Home .Home__content {
+    height: 100%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    justify-content: center; }
+  .Home .Home__title {
+    color: #569BBE;
+    font-size: 70px;
+    margin: 0 0 40px; }
+    .Home .Home__title span {
+      color: #333;
+      font-size: 65px;
+      display: block;
+      margin-left: 40px;
+      margin-top: -15px; }
+  .Home .Home__description {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 40px; }
+  .Home .Content {
+    margin-bottom: 0; }
+  .Home .background-video {
+    width: 100vmin;
+    height: 100vmin;
+    top: 0;
+    right: 0;
+    position: absolute; }
+    .Home .background-video video, .Home .background-video img {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      right: 0;
+      position: absolute; }
+
 footer {
   background: #F9F9F9;
   padding: 40px 0px 0px; }
