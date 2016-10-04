@@ -36,9 +36,7 @@
         <img src="/images/background-video-mask.png" alt="" title="" />
     </section>
     <div class="Home__content">
-        <div class="Content container">
-            @yield('content')
-        </div>
+        @yield('content')
     </div>
     <!-- Scripts -->
     <script src="/js/app.js"></script>

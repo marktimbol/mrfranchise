@@ -35,29 +35,31 @@ html {
 	    display: flex;
 	    align-items: flex-start;
 	    justify-content: center;
+
+    	margin-bottom: 0;
+    	padding-right: 15px;
+        padding-left: 15px;
 	}
 
 	.Home__title {
 		color: #569BBE;
-		font-size: 70px;
+		font-size: 16rem;
+		font-weight: bold;
 		margin: 0 0 40px;
 		span {
-			color: #333;
-			font-size: 65px;
+			color: #42413e;
 			display: block;
-			margin-left: 40px;
-			margin-top: -15px;
+			font-size: 14rem;
+			margin-top: -20px;
+			line-height: 11rem;
 		}
 	}
 
 	.Home__description {
+		color: #6f6961;
 		font-size: 36px;
 	    font-weight: 300;
 	    margin-bottom: 40px;
-	}
-
-	.Content {
-		margin-bottom: 0;
 	}
 
 	.background-video {

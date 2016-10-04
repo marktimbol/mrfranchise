@@ -394,23 +394,26 @@ html {
     -webkit-box-align: start;
     align-items: flex-start;
     -webkit-box-pack: center;
-    justify-content: center; }
+    justify-content: center;
+    margin-bottom: 0;
+    padding-right: 15px;
+    padding-left: 15px; }
   .Home .Home__title {
     color: #569BBE;
-    font-size: 70px;
+    font-size: 16rem;
+    font-weight: bold;
     margin: 0 0 40px; }
     .Home .Home__title span {
-      color: #333;
-      font-size: 65px;
+      color: #42413e;
       display: block;
-      margin-left: 40px;
-      margin-top: -15px; }
+      font-size: 14rem;
+      margin-top: -20px;
+      line-height: 11rem; }
   .Home .Home__description {
+    color: #6f6961;
     font-size: 36px;
     font-weight: 300;
     margin-bottom: 40px; }
-  .Home .Content {
-    margin-bottom: 0; }
   .Home .background-video {
     width: 100vmin;
     height: 100vmin;
