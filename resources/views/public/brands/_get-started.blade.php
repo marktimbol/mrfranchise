@@ -11,7 +11,7 @@
 					Inquire Now
 				</button>
 				<a href="/contact" class="btn btn-lg btn-default">Contact Us</a>
-				<a href="#" class="btn btn-lg btn-default">Visit Website</a>
+				<a href="{{ $website or '#' }}" target="_blank" class="btn btn-lg btn-default">Visit Website</a>
 			</div>
 		</div>
 	</div>

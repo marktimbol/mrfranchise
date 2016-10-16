@@ -61,6 +61,10 @@
 
 // Modal
 
+.modal {
+    z-index: 9999;
+}
+
 .modal-dialog {
     width: 60vw;
 }

@@ -55,15 +55,13 @@
 						<i class="fa fa-quote-left fa-3x color-white"></i>
 						<div class="testimonials">
 							<ul class="slides">
-								@foreach( range(1,3) as $testimonial)
-									<li class="Brand__testimonial">
-										<blockquote>
-											<p class="Brand__testimonial--text color-white">
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-											</p>
-										</blockquote>
-									</li>
-								@endforeach
+								<li class="Brand__testimonial">
+									<blockquote>
+										<p class="Brand__testimonial--text color-white">
+											Freshly prepared chips. Huge portions provide excellent value for the money. Lots of interesting sauce choices to add a little 'zest' to the chips.
+										</p>
+									</blockquote>
+								</li>
 							</ul>
 						</div>
 
@@ -142,7 +140,9 @@
 @endsection
 
 @section('content_after_container')
-	@include('public.brands._get-started')
+	@include('public.brands._get-started', [
+		'website'	=> 'http://www.queenschips.eu/'
+	])
 @endsection
 
 @section('footer_scripts')

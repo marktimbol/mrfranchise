@@ -1,11 +1,11 @@
-<div class="_container">
+<div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
             <nav>
                 <ul>
                     <li class="nav__item nav__item--logo">
                         <a href="/">
-                            <img src="/images/logo.png" alt="Mr. Franchise" title="Mr. Franchise" class="img-responsive" />
+                            <img src="/images/logo-dark.png" alt="Mr. Franchise" title="Mr. Franchise" class="img-responsive" />
                         </a>
                     </li>
                     <li class="nav__item">

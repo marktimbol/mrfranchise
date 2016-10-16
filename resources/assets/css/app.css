@@ -384,10 +384,12 @@ html {
     align-items: center; }
   .Home .nav__item--logo {
     margin-right: 20px; }
-  .Home .nav__item a {
-    color: #a8a39d;
-    font-weight: 400;
-    text-transform: uppercase; }
+  .Home .nav__item {
+    margin: 0px 20px; }
+    .Home .nav__item a {
+      color: #a8a39d;
+      font-weight: 400;
+      text-transform: uppercase; }
   .Home .Home__content {
     display: -webkit-box;
     display: flex;
@@ -406,7 +408,7 @@ html {
     .Home .Home__title span {
       color: #42413e;
       display: block;
-      font-size: 14rem;
+      font-size: 13rem;
       margin-top: -20px;
       line-height: 11rem; }
   .Home .Home__description {
@@ -479,6 +481,8 @@ footer {
     background-image: url("/images/eyescream/cover.jpg"); }
   .Eyescream .Brand__emoji {
     background: #FADA55; }
+  .Eyescream .Brand__testimonials {
+    background: #6D464B; }
   .Eyescream .emoji {
     color: #EA5E5C; }
   .Eyescream .About {
@@ -498,7 +502,8 @@ footer {
   .Nancys-pizza header {
     background: url("/images/header-shadow.png") repeat-x; }
   .Nancys-pizza .Brand__logo,
-  .Nancys-pizza .Brand__images {
+  .Nancys-pizza .Brand__images,
+  .Nancys-pizza .Brand__testimonials {
     background: #231F20; }
   .Nancys-pizza .Brand__hero {
     background-image: url("/images/nancys-pizza/cover.jpg"); }
@@ -519,7 +524,8 @@ footer {
   .Krush-burger header {
     background: url("/images/header-shadow.png") repeat-x; }
   .Krush-burger .Brand__logo,
-  .Krush-burger .Brand__images {
+  .Krush-burger .Brand__images,
+  .Krush-burger .Brand__testimonials {
     background: #FAA31B; }
   .Krush-burger .Brand__hero {
     background-image: url("/images/krush-burger/cover.jpg"); }
@@ -563,6 +569,7 @@ footer {
     background: url("/images/header-shadow.png") repeat-x; }
   .Queens-chips .Brand__logo,
   .Queens-chips .Brand__images,
+  .Queens-chips .Brand__testimonials,
   .Queens-chips .modal-header {
     background: #2A4634; }
   .Queens-chips .Brand__hero {
@@ -725,6 +732,9 @@ footer {
 
 .vjs-controls-disabled .vjs-poster {
   display: inline-block; }
+
+.modal {
+  z-index: 9999; }
 
 .modal-dialog {
   width: 60vw; }

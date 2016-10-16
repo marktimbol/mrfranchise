@@ -56,15 +56,13 @@
 						<i class="fa fa-quote-left fa-3x color-white"></i>
 						<div class="testimonials">
 							<ul class="slides">
-								@foreach( range(1,3) as $testimonial)
-									<li class="Brand__testimonial">
-										<blockquote>
-											<p class="Brand__testimonial--text color-white">
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-											</p>
-										</blockquote>
-									</li>
-								@endforeach
+								<li class="Brand__testimonial">
+									<blockquote>
+										<p class="Brand__testimonial--text color-white">
+											Krush Burger should definitely be on everyone's list of restaurants to try! I had no idea I was missing out on such good burgers.
+										</p>
+									</blockquote>
+								</li>
 							</ul>
 						</div>
 

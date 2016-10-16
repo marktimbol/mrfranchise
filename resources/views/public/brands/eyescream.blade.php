@@ -59,15 +59,13 @@
 						<i class="fa fa-quote-left fa-3x color-white"></i>
 						<div class="testimonials">
 							<ul class="slides">
-								@foreach( range(1,3) as $testimonial)
-									<li class="Brand__testimonial">
-										<blockquote>
-											<p class="Brand__testimonial--text color-white">
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-											</p>
-										</blockquote>
-									</li>
-								@endforeach
+								<li class="Brand__testimonial">
+									<blockquote>
+										<p class="Brand__testimonial--text color-white">
+											While exploring Barceloneta beach we encountered this fascintaing place. The way of getting the ice-cream is very original and fascinating.
+										</p>
+									</blockquote>
+								</li>
 							</ul>
 						</div>
 
@@ -174,7 +172,9 @@
 		</div>
 	</div>
 
-	@include('public.brands._get-started')
+	@include('public.brands._get-started', [
+		'website'	=> 'http://eyescreamandfriends.com/'
+	])
 @endsection
 
 @section('footer_scripts')
